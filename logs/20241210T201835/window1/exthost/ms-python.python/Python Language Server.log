@@ -1,0 +1,30 @@
+2024-12-10 20:20:35.106 [info] (Client) Pylance async client (2024.12.1) started with python extension (2024.14.1)
+2024-12-10 20:20:36.050 [info] [Info  - 8:20:36 PM] (29997) Server root directory: file:///root/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2024-12-10 20:20:36.053 [info] [Info  - 8:20:36 PM] (29997) Pylance language server 2024.12.1 (pyright version 1.1.389, commit ce1325fc) starting
+2024-12-10 20:20:36.070 [info] [Info  - 8:20:36 PM] (29997) Starting service instance "python-week7"
+2024-12-10 20:20:36.275 [info] [Info  - 8:20:36 PM] (29997) Setting environmentName for service "python-week7": "3.12.7 (usr venv)"
+2024-12-10 20:20:36.276 [info] [Info  - 8:20:36 PM] (29997) Setting pythonPath for service "python-week7": "/usr/bin/python"
+2024-12-10 20:20:36.277 [info] [Info  - 8:20:36 PM] (29997) No include entries specified; assuming /home/blogger/Documents/Plp_Academy/python-week7
+2024-12-10 20:20:36.278 [info] [Info  - 8:20:36 PM] (29997) Auto-excluding **/node_modules
+2024-12-10 20:20:36.279 [info] [Info  - 8:20:36 PM] (29997) Auto-excluding **/__pycache__
+2024-12-10 20:20:36.280 [info] [Info  - 8:20:36 PM] (29997) Auto-excluding **/.*
+2024-12-10 20:20:36.675 [info] [Info  - 8:20:36 PM] (29997) Assuming Python version 3.12.7.final.0
+2024-12-10 20:20:41.566 [info] [Info  - 8:20:41 PM] (29997) Found 15 source files
+2024-12-10 20:20:43.560 [info] [Info  - 8:20:43 PM] (29997) Background analysis(1) root directory: file:///root/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2024-12-10 20:20:43.560 [info] [Info  - 8:20:43 PM] (29997) Background analysis(1) started
+2024-12-10 20:20:43.654 [info] [Info  - 8:20:43 PM] (29997) Indexer background runner(2) root directory: file:///root/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist (index)
+2024-12-10 20:20:43.655 [info] [Info  - 8:20:43 PM] (29997) Indexing(2) started
+2024-12-10 20:20:55.656 [info] [Info  - 8:20:55 PM] (29997) [BG(1)] Long operation: SemanticTokens range 0:0 - 39:10 at file:///home/blogger/Documents/Plp_Academy/python-week7/linechart.py (11996ms)
+2024-12-10 20:21:08.732 [info] [Info  - 8:21:08 PM] (29997) [IDX(2)] Long operation: scan packages file:///home/blogger/Documents/Plp_Academy/python-week7 (23636ms)
+2024-12-10 20:21:08.733 [info] [Info  - 8:21:08 PM] (29997) scanned(2) 773 files over 1 exec env
+2024-12-10 20:21:10.783 [info] [Info  - 8:21:10 PM] (29997) indexed(2) 773 files over 1 exec env
+2024-12-10 20:21:11.786 [info] [Info  - 8:21:11 PM] (29997) Indexing finished(2).
+2024-12-10 20:40:59.269 [info] [Info  - 8:40:59 PM] (29997) Found 16 source files
+2024-12-10 20:41:01.743 [info] [Info  - 8:41:01 PM] (29997) [BG(1)] Long operation: indexing: file:///home/blogger/Documents/Plp_Academy/python-week7/answer.py (2048ms)
+2024-12-10 20:41:04.316 [info] [Info  - 8:41:04 PM] (29997) [BG(1)] Long operation: checking: file:///home/blogger/Documents/Plp_Academy/python-week7/answer.py (2450ms)
+2024-12-10 20:41:04.330 [info] [Info  - 8:41:04 PM] (29997) [BG(1)] Long operation: analyzing: file:///home/blogger/Documents/Plp_Academy/python-week7/answer.py (2454ms)
+2024-12-10 20:43:26.311 [info] [Info  - 8:43:26 PM] (29997) [FG] Long operation: parsing: file:///home/blogger/Documents/Plp_Academy/python-week7/linechart.py (6918ms)
+2024-12-10 20:44:55.340 [info] [Info  - 8:44:55 PM] (29997) Found 17 source files
+2024-12-10 20:45:18.347 [info] [Info  - 8:45:18 PM] (29997) Found 18 source files
+2024-12-10 20:45:23.164 [info] [Info  - 8:45:23 PM] (29997) [BG(1)] Long operation: checking: file:///home/blogger/Documents/Plp_Academy/python-week7/answer.py (3395ms)
+2024-12-10 20:45:23.166 [info] [Info  - 8:45:23 PM] (29997) [BG(1)] Long operation: analyzing: file:///home/blogger/Documents/Plp_Academy/python-week7/answer.py (3396ms)

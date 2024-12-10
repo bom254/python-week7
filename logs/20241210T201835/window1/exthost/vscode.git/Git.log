@@ -1,0 +1,1220 @@
+2024-12-10 20:19:19.222 [info] [main] Log level: Info
+2024-12-10 20:19:19.222 [info] [main] Validating found git in: "git"
+2024-12-10 20:19:29.783 [info] [main] Using git "2.43.0" from "git"
+2024-12-10 20:19:29.784 [info] [Model][doInitialScan] Initial repository scan started
+2024-12-10 20:19:32.093 [info] > git rev-parse --show-toplevel [1332ms]
+2024-12-10 20:19:32.794 [info] > git rev-parse --git-dir --git-common-dir [342ms]
+2024-12-10 20:19:32.837 [info] [Model][openRepository] Opened repository: /home/blogger/Documents/S-manager
+2024-12-10 20:19:33.185 [info] > git rev-parse --show-toplevel [27ms]
+2024-12-10 20:19:33.253 [info] > git config --get commit.template [101ms]
+2024-12-10 20:19:33.289 [info] > git rev-parse --show-toplevel [45ms]
+2024-12-10 20:19:33.297 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-12-10 20:19:33.707 [info] > git ls-files --stage -- /home/blogger/Documents/S-manager/myapp/lib/main.dart [378ms]
+2024-12-10 20:19:33.761 [info] > git check-ignore -v -z --stdin [6ms]
+2024-12-10 20:19:33.884 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [598ms]
+2024-12-10 20:19:34.522 [info] > git cat-file -s 9f9cbd456e0f4e5c6e00ff5aaa2b89999a20c3bd [790ms]
+2024-12-10 20:19:34.556 [info] > git show --textconv :myapp/lib/main.dart [1241ms]
+2024-12-10 20:19:38.712 [info] > git status -z -uall [4805ms]
+2024-12-10 20:19:39.005 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [264ms]
+2024-12-10 20:19:39.177 [info] > git config --local branch.main.vscode-merge-base [152ms]
+2024-12-10 20:19:39.208 [info] > git config --get commit.template [205ms]
+2024-12-10 20:19:39.236 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-12-10 20:19:39.284 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [77ms]
+2024-12-10 20:19:39.333 [info] > git merge-base refs/heads/main refs/remotes/origin/main [31ms]
+2024-12-10 20:19:39.356 [info] > git status -z -uall [92ms]
+2024-12-10 20:19:39.392 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
+2024-12-10 20:19:39.425 [info] > git config --local branch.main.vscode-merge-base [12ms]
+2024-12-10 20:19:39.456 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [8ms]
+2024-12-10 20:19:39.553 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [200ms]
+2024-12-10 20:19:39.568 [info] > git diff --name-status -z --diff-filter=ADMR ba93bd3a90022502e3233516818bfce73d55722a...refs/remotes/origin/main [4ms]
+2024-12-10 20:20:29.429 [info] [main] Log level: Info
+2024-12-10 20:20:29.430 [info] [main] Validating found git in: "git"
+2024-12-10 20:20:29.430 [info] [main] Using git "2.43.0" from "git"
+2024-12-10 20:20:29.430 [info] [Model][doInitialScan] Initial repository scan started
+2024-12-10 20:20:29.430 [info] > git rev-parse --show-toplevel [261ms]
+2024-12-10 20:20:29.562 [info] > git rev-parse --git-dir --git-common-dir [50ms]
+2024-12-10 20:20:29.602 [info] [Model][openRepository] Opened repository: /home/blogger/Documents/Plp_Academy/python-week7
+2024-12-10 20:20:29.712 [info] > git config --get commit.template [65ms]
+2024-12-10 20:20:30.963 [info] > git check-ignore -v -z --stdin [32ms]
+2024-12-10 20:20:30.987 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [95ms]
+2024-12-10 20:20:30.988 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:20:31.107 [info] > git status -z -uall [87ms]
+2024-12-10 20:20:31.257 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [125ms]
+2024-12-10 20:20:31.257 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:20:31.525 [info] > git config --get commit.template [326ms]
+2024-12-10 20:20:31.582 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2024-12-10 20:20:31.584 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:20:31.629 [info] > git status -z -uall [22ms]
+2024-12-10 20:20:31.674 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [23ms]
+2024-12-10 20:20:31.674 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:20:32.130 [info] > git rev-parse --show-toplevel [45ms]
+2024-12-10 20:20:32.284 [info] > git rev-parse --show-toplevel [115ms]
+2024-12-10 20:20:32.624 [info] > git rev-parse --show-toplevel [256ms]
+2024-12-10 20:20:32.647 [info] > git rev-parse --show-toplevel [11ms]
+2024-12-10 20:20:32.660 [info] > git rev-parse --show-toplevel [4ms]
+2024-12-10 20:20:32.672 [info] > git rev-parse --show-toplevel [3ms]
+2024-12-10 20:20:32.687 [info] > git rev-parse --show-toplevel [4ms]
+2024-12-10 20:20:32.699 [info] > git rev-parse --show-toplevel [3ms]
+2024-12-10 20:20:32.717 [info] > git rev-parse --show-toplevel [2ms]
+2024-12-10 20:20:32.728 [info] > git rev-parse --show-toplevel [3ms]
+2024-12-10 20:20:32.746 [info] > git rev-parse --show-toplevel [3ms]
+2024-12-10 20:20:32.778 [info] > git rev-parse --show-toplevel [19ms]
+2024-12-10 20:20:32.798 [info] > git rev-parse --show-toplevel [2ms]
+2024-12-10 20:20:32.820 [info] > git rev-parse --show-toplevel [3ms]
+2024-12-10 20:20:32.838 [info] > git rev-parse --show-toplevel [3ms]
+2024-12-10 20:20:32.851 [info] > git rev-parse --show-toplevel [3ms]
+2024-12-10 20:20:32.867 [info] > git rev-parse --show-toplevel [3ms]
+2024-12-10 20:20:32.882 [info] > git rev-parse --show-toplevel [4ms]
+2024-12-10 20:20:32.900 [info] > git rev-parse --show-toplevel [5ms]
+2024-12-10 20:20:32.919 [info] > git rev-parse --show-toplevel [3ms]
+2024-12-10 20:20:32.921 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-12-10 20:20:32.964 [info] > git show --textconv :linechart.py [18ms]
+2024-12-10 20:20:32.964 [info] > git ls-files --stage -- /home/blogger/Documents/Plp_Academy/python-week7/linechart.py [5ms]
+2024-12-10 20:20:34.140 [info] > git config --get commit.template [13ms]
+2024-12-10 20:20:34.142 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:20:34.142 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:20:34.161 [info] > git status -z -uall [9ms]
+2024-12-10 20:20:34.191 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [15ms]
+2024-12-10 20:20:34.192 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:20:41.670 [info] > git config --get commit.template [8ms]
+2024-12-10 20:20:41.700 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2024-12-10 20:20:41.701 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:20:41.769 [info] > git status -z -uall [20ms]
+2024-12-10 20:20:41.818 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [22ms]
+2024-12-10 20:20:41.818 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:20:46.830 [info] > git config --get commit.template [2ms]
+2024-12-10 20:20:46.847 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-12-10 20:20:46.848 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:20:46.878 [info] > git status -z -uall [11ms]
+2024-12-10 20:20:46.918 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [16ms]
+2024-12-10 20:20:46.918 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:20:50.214 [info] > git check-ignore -v -z --stdin [175ms]
+2024-12-10 20:20:50.217 [info] > git show --textconv :README.md [115ms]
+2024-12-10 20:20:50.220 [info] > git ls-files --stage -- /home/blogger/Documents/Plp_Academy/python-week7/README.md [76ms]
+2024-12-10 20:21:31.456 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [20ms]
+2024-12-10 20:21:31.456 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:21:31.457 [info] > git config --get commit.template [30ms]
+2024-12-10 20:21:31.554 [info] > git status -z -uall [84ms]
+2024-12-10 20:21:31.589 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [15ms]
+2024-12-10 20:21:31.589 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:21:36.611 [info] > git config --get commit.template [11ms]
+2024-12-10 20:21:36.611 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:21:36.612 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:21:36.628 [info] > git status -z -uall [7ms]
+2024-12-10 20:21:36.651 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-12-10 20:21:36.652 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:21:41.668 [info] > git config --get commit.template [2ms]
+2024-12-10 20:21:41.681 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:21:41.681 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:21:41.699 [info] > git status -z -uall [6ms]
+2024-12-10 20:21:41.723 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2024-12-10 20:21:41.723 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:21:46.733 [info] > git config --get commit.template [2ms]
+2024-12-10 20:21:46.744 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:21:46.745 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:21:46.763 [info] > git status -z -uall [6ms]
+2024-12-10 20:21:46.790 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2024-12-10 20:21:46.791 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:21:51.853 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-12-10 20:21:51.853 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:21:51.854 [info] > git config --get commit.template [33ms]
+2024-12-10 20:21:51.876 [info] > git status -z -uall [10ms]
+2024-12-10 20:21:51.914 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [17ms]
+2024-12-10 20:21:51.914 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:28:35.385 [info] > git config --get commit.template [10ms]
+2024-12-10 20:28:35.435 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2024-12-10 20:28:35.435 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:28:35.482 [info] > git status -z -uall [14ms]
+2024-12-10 20:28:35.531 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [28ms]
+2024-12-10 20:28:35.531 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:28:39.984 [info] > git show --textconv :answer.py [7ms]
+2024-12-10 20:28:40.046 [info] > git ls-files --stage -- /home/blogger/Documents/Plp_Academy/python-week7/answer.py [10ms]
+2024-12-10 20:28:40.573 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:28:40.573 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:28:40.573 [info] > git config --get commit.template [25ms]
+2024-12-10 20:28:40.614 [info] > git status -z -uall [13ms]
+2024-12-10 20:28:40.728 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [78ms]
+2024-12-10 20:28:40.728 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:28:45.746 [info] > git config --get commit.template [2ms]
+2024-12-10 20:28:45.762 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:28:45.762 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:28:45.784 [info] > git status -z -uall [7ms]
+2024-12-10 20:28:45.831 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [29ms]
+2024-12-10 20:28:45.832 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:28:48.665 [info] > git show --textconv :linechart.py [24ms]
+2024-12-10 20:28:48.668 [info] > git ls-files --stage -- /home/blogger/Documents/Plp_Academy/python-week7/linechart.py [8ms]
+2024-12-10 20:28:50.855 [info] > git config --get commit.template [15ms]
+2024-12-10 20:28:50.857 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-12-10 20:28:50.857 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:28:50.882 [info] > git status -z -uall [11ms]
+2024-12-10 20:28:50.911 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2024-12-10 20:28:50.912 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:28:55.936 [info] > git config --get commit.template [13ms]
+2024-12-10 20:28:55.937 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:28:55.937 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:28:55.957 [info] > git status -z -uall [9ms]
+2024-12-10 20:28:55.988 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-12-10 20:28:55.989 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:29:01.014 [info] > git config --get commit.template [13ms]
+2024-12-10 20:29:01.015 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:29:01.016 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:29:01.032 [info] > git status -z -uall [7ms]
+2024-12-10 20:29:01.067 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
+2024-12-10 20:29:01.067 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:29:06.085 [info] > git config --get commit.template [4ms]
+2024-12-10 20:29:06.101 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:29:06.101 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:29:06.121 [info] > git status -z -uall [8ms]
+2024-12-10 20:29:06.167 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [23ms]
+2024-12-10 20:29:06.167 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:29:11.189 [info] > git config --get commit.template [13ms]
+2024-12-10 20:29:11.190 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:29:11.190 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:29:11.210 [info] > git status -z -uall [7ms]
+2024-12-10 20:29:11.244 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [16ms]
+2024-12-10 20:29:11.244 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:29:16.264 [info] > git config --get commit.template [1ms]
+2024-12-10 20:29:16.280 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-12-10 20:29:16.281 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:29:16.313 [info] > git status -z -uall [17ms]
+2024-12-10 20:29:16.357 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [19ms]
+2024-12-10 20:29:16.358 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:29:17.852 [info] > git show --textconv :answer.py [3ms]
+2024-12-10 20:29:17.877 [info] > git ls-files --stage -- /home/blogger/Documents/Plp_Academy/python-week7/answer.py [5ms]
+2024-12-10 20:29:21.373 [info] > git config --get commit.template [5ms]
+2024-12-10 20:29:21.390 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:29:21.390 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:29:21.409 [info] > git status -z -uall [7ms]
+2024-12-10 20:29:21.434 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-12-10 20:29:21.434 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:29:25.793 [info] > git show --textconv :linechart.py [19ms]
+2024-12-10 20:29:25.797 [info] > git ls-files --stage -- /home/blogger/Documents/Plp_Academy/python-week7/linechart.py [8ms]
+2024-12-10 20:29:26.473 [info] > git config --get commit.template [17ms]
+2024-12-10 20:29:26.475 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:29:26.475 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:29:26.498 [info] > git status -z -uall [10ms]
+2024-12-10 20:29:26.566 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [45ms]
+2024-12-10 20:29:26.566 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:29:31.589 [info] > git config --get commit.template [17ms]
+2024-12-10 20:29:31.592 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-12-10 20:29:31.592 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:29:31.619 [info] > git status -z -uall [10ms]
+2024-12-10 20:29:31.652 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2024-12-10 20:29:31.653 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:29:36.687 [info] > git config --get commit.template [3ms]
+2024-12-10 20:29:36.842 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [128ms]
+2024-12-10 20:29:36.843 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:29:36.878 [info] > git status -z -uall [12ms]
+2024-12-10 20:29:36.980 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [61ms]
+2024-12-10 20:29:36.980 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:29:42.006 [info] > git config --get commit.template [24ms]
+2024-12-10 20:29:42.016 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2024-12-10 20:29:42.016 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:29:42.047 [info] > git status -z -uall [11ms]
+2024-12-10 20:29:42.086 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
+2024-12-10 20:29:42.087 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:29:47.176 [info] > git config --get commit.template [31ms]
+2024-12-10 20:29:47.177 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-12-10 20:29:47.178 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:29:47.255 [info] > git status -z -uall [51ms]
+2024-12-10 20:29:47.292 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [17ms]
+2024-12-10 20:29:47.293 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:29:52.314 [info] > git config --get commit.template [12ms]
+2024-12-10 20:29:52.316 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-12-10 20:29:52.316 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:29:52.335 [info] > git status -z -uall [8ms]
+2024-12-10 20:29:52.360 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2024-12-10 20:29:52.360 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:29:57.381 [info] > git config --get commit.template [3ms]
+2024-12-10 20:29:57.402 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:29:57.402 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:29:57.423 [info] > git status -z -uall [7ms]
+2024-12-10 20:29:57.449 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2024-12-10 20:29:57.449 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:30:02.476 [info] > git config --get commit.template [13ms]
+2024-12-10 20:30:02.478 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-12-10 20:30:02.478 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:30:02.498 [info] > git status -z -uall [8ms]
+2024-12-10 20:30:02.527 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2024-12-10 20:30:02.528 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:30:07.555 [info] > git config --get commit.template [15ms]
+2024-12-10 20:30:07.556 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:30:07.556 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:30:07.573 [info] > git status -z -uall [8ms]
+2024-12-10 20:30:07.603 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2024-12-10 20:30:07.603 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:30:12.640 [info] > git config --get commit.template [18ms]
+2024-12-10 20:30:12.642 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-12-10 20:30:12.642 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:30:12.660 [info] > git status -z -uall [6ms]
+2024-12-10 20:30:12.688 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2024-12-10 20:30:12.688 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:30:17.710 [info] > git config --get commit.template [13ms]
+2024-12-10 20:30:17.712 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:30:17.712 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:30:17.729 [info] > git status -z -uall [6ms]
+2024-12-10 20:30:17.758 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2024-12-10 20:30:17.758 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:30:22.768 [info] > git config --get commit.template [3ms]
+2024-12-10 20:30:22.784 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:30:22.784 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:30:22.803 [info] > git status -z -uall [8ms]
+2024-12-10 20:30:22.837 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [15ms]
+2024-12-10 20:30:22.838 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:30:27.865 [info] > git config --get commit.template [3ms]
+2024-12-10 20:30:27.888 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-12-10 20:30:27.888 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:30:27.914 [info] > git status -z -uall [10ms]
+2024-12-10 20:30:27.940 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-12-10 20:30:27.941 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:30:32.957 [info] > git config --get commit.template [3ms]
+2024-12-10 20:30:32.980 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-12-10 20:30:32.980 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:30:33.002 [info] > git status -z -uall [9ms]
+2024-12-10 20:30:33.047 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [26ms]
+2024-12-10 20:30:33.048 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:30:38.071 [info] > git config --get commit.template [11ms]
+2024-12-10 20:30:38.072 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:30:38.072 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:30:38.089 [info] > git status -z -uall [6ms]
+2024-12-10 20:30:38.111 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-12-10 20:30:38.111 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:30:41.266 [info] > git show --textconv :answer.py [102ms]
+2024-12-10 20:30:41.280 [info] > git ls-files --stage -- /home/blogger/Documents/Plp_Academy/python-week7/answer.py [16ms]
+2024-12-10 20:30:43.143 [info] > git config --get commit.template [16ms]
+2024-12-10 20:30:43.144 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:30:43.144 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:30:43.162 [info] > git status -z -uall [7ms]
+2024-12-10 20:30:43.187 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2024-12-10 20:30:43.187 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:30:48.224 [info] > git config --get commit.template [17ms]
+2024-12-10 20:30:48.225 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:30:48.225 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:30:48.251 [info] > git status -z -uall [9ms]
+2024-12-10 20:30:48.296 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [24ms]
+2024-12-10 20:30:48.296 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:30:53.327 [info] > git config --get commit.template [3ms]
+2024-12-10 20:30:53.347 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:30:53.348 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:30:53.367 [info] > git status -z -uall [8ms]
+2024-12-10 20:30:53.397 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2024-12-10 20:30:53.397 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:30:58.412 [info] > git config --get commit.template [3ms]
+2024-12-10 20:30:58.427 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:30:58.427 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:30:58.446 [info] > git status -z -uall [8ms]
+2024-12-10 20:30:58.487 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [17ms]
+2024-12-10 20:30:58.487 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:31:03.517 [info] > git config --get commit.template [4ms]
+2024-12-10 20:31:03.542 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:31:03.542 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:31:03.568 [info] > git status -z -uall [8ms]
+2024-12-10 20:31:03.604 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-12-10 20:31:03.604 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:31:08.631 [info] > git config --get commit.template [14ms]
+2024-12-10 20:31:08.633 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:31:08.634 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:31:08.653 [info] > git status -z -uall [8ms]
+2024-12-10 20:31:08.680 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-12-10 20:31:08.680 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:31:13.696 [info] > git config --get commit.template [3ms]
+2024-12-10 20:31:13.719 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-12-10 20:31:13.720 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:31:13.739 [info] > git status -z -uall [7ms]
+2024-12-10 20:31:13.775 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [19ms]
+2024-12-10 20:31:13.776 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:31:18.798 [info] > git config --get commit.template [14ms]
+2024-12-10 20:31:18.799 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:31:18.799 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:31:18.816 [info] > git status -z -uall [6ms]
+2024-12-10 20:31:18.840 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-12-10 20:31:18.840 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:31:23.864 [info] > git config --get commit.template [11ms]
+2024-12-10 20:31:23.864 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-12-10 20:31:23.864 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:31:23.890 [info] > git status -z -uall [11ms]
+2024-12-10 20:31:23.922 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2024-12-10 20:31:23.923 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:31:28.960 [info] > git config --get commit.template [19ms]
+2024-12-10 20:31:28.962 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:31:28.962 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:31:28.982 [info] > git status -z -uall [7ms]
+2024-12-10 20:31:29.014 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2024-12-10 20:31:29.014 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:31:34.042 [info] > git config --get commit.template [15ms]
+2024-12-10 20:31:34.044 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:31:34.044 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:31:34.069 [info] > git status -z -uall [9ms]
+2024-12-10 20:31:34.097 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2024-12-10 20:31:34.097 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:31:39.127 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:31:39.128 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:31:39.155 [info] > git config --get commit.template [48ms]
+2024-12-10 20:31:39.173 [info] > git status -z -uall [7ms]
+2024-12-10 20:31:39.198 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-12-10 20:31:39.198 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:31:44.213 [info] > git config --get commit.template [3ms]
+2024-12-10 20:31:44.230 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:31:44.230 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:31:44.248 [info] > git status -z -uall [8ms]
+2024-12-10 20:31:44.273 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2024-12-10 20:31:44.274 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:31:49.306 [info] > git config --get commit.template [17ms]
+2024-12-10 20:31:49.307 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:31:49.307 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:31:49.329 [info] > git status -z -uall [8ms]
+2024-12-10 20:31:49.379 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [15ms]
+2024-12-10 20:31:49.381 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:31:54.438 [info] > git config --get commit.template [3ms]
+2024-12-10 20:31:54.482 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [15ms]
+2024-12-10 20:31:54.483 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:31:54.543 [info] > git status -z -uall [27ms]
+2024-12-10 20:31:55.353 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [707ms]
+2024-12-10 20:31:55.354 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:31:59.743 [info] > git config --get commit.template [3ms]
+2024-12-10 20:31:59.761 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-12-10 20:31:59.762 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:31:59.789 [info] > git status -z -uall [10ms]
+2024-12-10 20:31:59.820 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2024-12-10 20:31:59.821 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:32:04.840 [info] > git config --get commit.template [3ms]
+2024-12-10 20:32:04.856 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:32:04.856 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:32:04.874 [info] > git status -z -uall [8ms]
+2024-12-10 20:32:04.903 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2024-12-10 20:32:04.903 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:32:09.921 [info] > git config --get commit.template [12ms]
+2024-12-10 20:32:09.923 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-12-10 20:32:09.923 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:32:09.939 [info] > git status -z -uall [7ms]
+2024-12-10 20:32:09.968 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2024-12-10 20:32:09.968 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:32:15.016 [info] > git config --get commit.template [15ms]
+2024-12-10 20:32:15.053 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-12-10 20:32:15.053 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:32:15.079 [info] > git status -z -uall [9ms]
+2024-12-10 20:32:15.116 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [16ms]
+2024-12-10 20:32:15.116 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:32:20.130 [info] > git config --get commit.template [3ms]
+2024-12-10 20:32:20.146 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:32:20.147 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:32:20.166 [info] > git status -z -uall [7ms]
+2024-12-10 20:32:20.197 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [17ms]
+2024-12-10 20:32:20.198 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:32:25.212 [info] > git config --get commit.template [3ms]
+2024-12-10 20:32:25.224 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:32:25.224 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:32:25.242 [info] > git status -z -uall [7ms]
+2024-12-10 20:32:25.264 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2024-12-10 20:32:25.264 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:32:30.276 [info] > git config --get commit.template [3ms]
+2024-12-10 20:32:30.288 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:32:30.288 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:32:30.306 [info] > git status -z -uall [6ms]
+2024-12-10 20:32:30.332 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2024-12-10 20:32:30.332 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:32:35.356 [info] > git config --get commit.template [11ms]
+2024-12-10 20:32:35.357 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:32:35.357 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:32:35.376 [info] > git status -z -uall [9ms]
+2024-12-10 20:32:35.407 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [15ms]
+2024-12-10 20:32:35.407 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:32:40.443 [info] > git config --get commit.template [20ms]
+2024-12-10 20:32:40.458 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:32:40.458 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:32:40.478 [info] > git status -z -uall [8ms]
+2024-12-10 20:32:40.508 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2024-12-10 20:32:40.508 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:32:45.535 [info] > git config --get commit.template [13ms]
+2024-12-10 20:32:45.537 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:32:45.537 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:32:45.555 [info] > git status -z -uall [7ms]
+2024-12-10 20:32:45.577 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-12-10 20:32:45.577 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:32:50.603 [info] > git config --get commit.template [15ms]
+2024-12-10 20:32:50.604 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:32:50.604 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:32:50.631 [info] > git status -z -uall [9ms]
+2024-12-10 20:32:50.653 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-12-10 20:32:50.653 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:32:55.677 [info] > git config --get commit.template [13ms]
+2024-12-10 20:32:55.679 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:32:55.679 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:32:55.696 [info] > git status -z -uall [7ms]
+2024-12-10 20:32:55.718 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-12-10 20:32:55.718 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:33:00.747 [info] > git config --get commit.template [13ms]
+2024-12-10 20:33:00.749 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-12-10 20:33:00.749 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:33:00.771 [info] > git status -z -uall [10ms]
+2024-12-10 20:33:00.810 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [15ms]
+2024-12-10 20:33:00.811 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:33:05.823 [info] > git config --get commit.template [2ms]
+2024-12-10 20:33:05.842 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:33:05.843 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:33:05.862 [info] > git status -z -uall [8ms]
+2024-12-10 20:33:05.890 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-12-10 20:33:05.890 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:33:10.921 [info] > git config --get commit.template [14ms]
+2024-12-10 20:33:10.922 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:33:10.922 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:33:10.940 [info] > git status -z -uall [7ms]
+2024-12-10 20:33:10.963 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-12-10 20:33:10.963 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:33:15.987 [info] > git config --get commit.template [12ms]
+2024-12-10 20:33:15.989 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:33:15.990 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:33:16.008 [info] > git status -z -uall [8ms]
+2024-12-10 20:33:16.035 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2024-12-10 20:33:16.035 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:33:21.057 [info] > git config --get commit.template [3ms]
+2024-12-10 20:33:21.074 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:33:21.074 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:33:21.092 [info] > git status -z -uall [7ms]
+2024-12-10 20:33:21.120 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2024-12-10 20:33:21.120 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:33:26.147 [info] > git config --get commit.template [12ms]
+2024-12-10 20:33:26.148 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:33:26.148 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:33:26.169 [info] > git status -z -uall [8ms]
+2024-12-10 20:33:26.197 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-12-10 20:33:26.198 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:33:31.225 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:33:31.227 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:33:31.227 [info] > git config --get commit.template [18ms]
+2024-12-10 20:33:31.251 [info] > git status -z -uall [8ms]
+2024-12-10 20:33:31.288 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2024-12-10 20:33:31.289 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:33:36.316 [info] > git config --get commit.template [15ms]
+2024-12-10 20:33:36.319 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:33:36.319 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:33:36.340 [info] > git status -z -uall [9ms]
+2024-12-10 20:33:36.365 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-12-10 20:33:36.365 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:33:41.385 [info] > git config --get commit.template [7ms]
+2024-12-10 20:33:41.400 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-12-10 20:33:41.400 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:33:41.419 [info] > git status -z -uall [9ms]
+2024-12-10 20:33:41.442 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2024-12-10 20:33:41.442 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:33:46.489 [info] > git config --get commit.template [27ms]
+2024-12-10 20:33:46.503 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:33:46.504 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:33:46.521 [info] > git status -z -uall [6ms]
+2024-12-10 20:33:46.545 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-12-10 20:33:46.545 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:33:51.562 [info] > git config --get commit.template [2ms]
+2024-12-10 20:33:51.579 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:33:51.579 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:33:51.597 [info] > git status -z -uall [7ms]
+2024-12-10 20:33:51.626 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2024-12-10 20:33:51.626 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:33:56.641 [info] > git config --get commit.template [2ms]
+2024-12-10 20:33:56.654 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:33:56.654 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:33:56.681 [info] > git status -z -uall [14ms]
+2024-12-10 20:33:56.714 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2024-12-10 20:33:56.714 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:34:01.737 [info] > git config --get commit.template [13ms]
+2024-12-10 20:34:01.738 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:34:01.738 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:34:01.758 [info] > git status -z -uall [8ms]
+2024-12-10 20:34:01.782 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-12-10 20:34:01.783 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:34:06.801 [info] > git config --get commit.template [3ms]
+2024-12-10 20:34:06.817 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:34:06.817 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:34:06.833 [info] > git status -z -uall [6ms]
+2024-12-10 20:34:06.856 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2024-12-10 20:34:06.856 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:34:11.872 [info] > git config --get commit.template [3ms]
+2024-12-10 20:34:11.892 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:34:11.893 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:34:11.923 [info] > git status -z -uall [10ms]
+2024-12-10 20:34:11.954 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2024-12-10 20:34:11.954 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:34:16.985 [info] > git config --get commit.template [16ms]
+2024-12-10 20:34:16.988 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-12-10 20:34:16.988 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:34:17.011 [info] > git status -z -uall [9ms]
+2024-12-10 20:34:17.043 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2024-12-10 20:34:17.043 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:34:22.065 [info] > git config --get commit.template [4ms]
+2024-12-10 20:34:22.090 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:34:22.090 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:34:22.137 [info] > git status -z -uall [20ms]
+2024-12-10 20:34:22.183 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
+2024-12-10 20:34:22.183 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:34:27.227 [info] > git config --get commit.template [10ms]
+2024-12-10 20:34:27.252 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:34:27.252 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:34:27.286 [info] > git status -z -uall [13ms]
+2024-12-10 20:34:27.384 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [55ms]
+2024-12-10 20:34:27.384 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:34:32.396 [info] > git config --get commit.template [13ms]
+2024-12-10 20:34:32.397 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:34:32.397 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:34:32.416 [info] > git status -z -uall [9ms]
+2024-12-10 20:34:32.440 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2024-12-10 20:34:32.441 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:34:37.464 [info] > git config --get commit.template [11ms]
+2024-12-10 20:34:37.465 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:34:37.465 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:34:37.481 [info] > git status -z -uall [7ms]
+2024-12-10 20:34:37.503 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-12-10 20:34:37.503 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:34:42.525 [info] > git config --get commit.template [12ms]
+2024-12-10 20:34:42.526 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:34:42.526 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:34:42.541 [info] > git status -z -uall [6ms]
+2024-12-10 20:34:42.577 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [15ms]
+2024-12-10 20:34:42.578 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:34:47.592 [info] > git config --get commit.template [3ms]
+2024-12-10 20:34:47.605 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:34:47.605 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:34:47.621 [info] > git status -z -uall [7ms]
+2024-12-10 20:34:47.645 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2024-12-10 20:34:47.646 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:34:52.673 [info] > git config --get commit.template [15ms]
+2024-12-10 20:34:52.675 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:34:52.675 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:34:52.694 [info] > git status -z -uall [8ms]
+2024-12-10 20:34:52.728 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [16ms]
+2024-12-10 20:34:52.728 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:34:57.768 [info] > git config --get commit.template [16ms]
+2024-12-10 20:34:57.772 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-12-10 20:34:57.772 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:34:57.808 [info] > git status -z -uall [12ms]
+2024-12-10 20:34:57.840 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2024-12-10 20:34:57.840 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:35:02.872 [info] > git config --get commit.template [19ms]
+2024-12-10 20:35:02.876 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-12-10 20:35:02.876 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:35:02.945 [info] > git status -z -uall [21ms]
+2024-12-10 20:35:03.036 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [43ms]
+2024-12-10 20:35:03.036 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:35:08.054 [info] > git config --get commit.template [11ms]
+2024-12-10 20:35:08.056 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:35:08.056 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:35:08.072 [info] > git status -z -uall [7ms]
+2024-12-10 20:35:08.098 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2024-12-10 20:35:08.098 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:35:21.402 [info] > git config --get commit.template [99ms]
+2024-12-10 20:35:21.417 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [16ms]
+2024-12-10 20:35:21.417 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:35:21.460 [info] > git status -z -uall [18ms]
+2024-12-10 20:35:21.525 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [21ms]
+2024-12-10 20:35:21.525 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:37:21.528 [info] > git config --get commit.template [49ms]
+2024-12-10 20:37:21.532 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-12-10 20:37:21.533 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:37:21.625 [info] > git status -z -uall [70ms]
+2024-12-10 20:37:21.661 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2024-12-10 20:37:21.661 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:37:26.676 [info] > git config --get commit.template [3ms]
+2024-12-10 20:37:26.689 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:37:26.689 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:37:26.707 [info] > git status -z -uall [8ms]
+2024-12-10 20:37:26.734 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-12-10 20:37:26.734 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:37:31.755 [info] > git config --get commit.template [11ms]
+2024-12-10 20:37:31.757 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:37:31.757 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:37:31.773 [info] > git status -z -uall [6ms]
+2024-12-10 20:37:31.796 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2024-12-10 20:37:31.796 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:37:36.825 [info] > git config --get commit.template [15ms]
+2024-12-10 20:37:36.826 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:37:36.826 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:37:36.847 [info] > git status -z -uall [9ms]
+2024-12-10 20:37:36.876 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-12-10 20:37:36.876 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:37:41.898 [info] > git config --get commit.template [2ms]
+2024-12-10 20:37:41.914 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-12-10 20:37:41.914 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:37:41.935 [info] > git status -z -uall [7ms]
+2024-12-10 20:37:41.964 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2024-12-10 20:37:41.964 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:37:45.921 [info] > git show --textconv :README.md [102ms]
+2024-12-10 20:37:45.922 [info] > git ls-files --stage -- /home/blogger/Documents/Plp_Academy/python-week7/README.md [17ms]
+2024-12-10 20:37:46.987 [info] > git config --get commit.template [11ms]
+2024-12-10 20:37:46.988 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:37:46.988 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:37:47.005 [info] > git status -z -uall [7ms]
+2024-12-10 20:37:47.027 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-12-10 20:37:47.027 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:37:52.047 [info] > git config --get commit.template [3ms]
+2024-12-10 20:37:52.062 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:37:52.062 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:37:52.079 [info] > git status -z -uall [7ms]
+2024-12-10 20:37:52.102 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-12-10 20:37:52.102 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:37:57.126 [info] > git config --get commit.template [13ms]
+2024-12-10 20:37:57.127 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:37:57.128 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:37:57.145 [info] > git status -z -uall [7ms]
+2024-12-10 20:37:57.167 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2024-12-10 20:37:57.167 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:38:02.191 [info] > git config --get commit.template [13ms]
+2024-12-10 20:38:02.192 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:38:02.192 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:38:02.210 [info] > git status -z -uall [6ms]
+2024-12-10 20:38:02.231 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-12-10 20:38:02.231 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:38:04.046 [info] > git show --textconv :linechart.py [45ms]
+2024-12-10 20:38:04.078 [info] > git ls-files --stage -- /home/blogger/Documents/Plp_Academy/python-week7/linechart.py [34ms]
+2024-12-10 20:38:07.259 [info] > git config --get commit.template [15ms]
+2024-12-10 20:38:07.260 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:38:07.260 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:38:07.281 [info] > git status -z -uall [9ms]
+2024-12-10 20:38:07.306 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2024-12-10 20:38:07.307 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:38:12.328 [info] > git config --get commit.template [11ms]
+2024-12-10 20:38:12.330 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:38:12.330 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:38:12.349 [info] > git status -z -uall [9ms]
+2024-12-10 20:38:12.373 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2024-12-10 20:38:12.373 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:38:17.398 [info] > git config --get commit.template [12ms]
+2024-12-10 20:38:17.399 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:38:17.399 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:38:17.417 [info] > git status -z -uall [6ms]
+2024-12-10 20:38:17.443 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-12-10 20:38:17.443 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:38:22.457 [info] > git config --get commit.template [2ms]
+2024-12-10 20:38:22.473 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:38:22.473 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:38:22.496 [info] > git status -z -uall [7ms]
+2024-12-10 20:38:22.524 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-12-10 20:38:22.524 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:38:27.540 [info] > git config --get commit.template [1ms]
+2024-12-10 20:38:27.556 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:38:27.556 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:38:27.574 [info] > git status -z -uall [8ms]
+2024-12-10 20:38:27.602 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2024-12-10 20:38:27.603 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:38:32.618 [info] > git config --get commit.template [1ms]
+2024-12-10 20:38:32.633 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-12-10 20:38:32.633 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:38:32.655 [info] > git status -z -uall [10ms]
+2024-12-10 20:38:32.686 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-12-10 20:38:32.686 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:38:39.060 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-12-10 20:38:39.060 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:38:39.061 [info] > git config --get commit.template [64ms]
+2024-12-10 20:38:39.098 [info] > git status -z -uall [12ms]
+2024-12-10 20:38:39.181 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [20ms]
+2024-12-10 20:38:39.182 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:38:41.037 [info] > git show --textconv :README.md [102ms]
+2024-12-10 20:38:41.048 [info] > git ls-files --stage -- /home/blogger/Documents/Plp_Academy/python-week7/README.md [24ms]
+2024-12-10 20:38:44.194 [info] > git config --get commit.template [2ms]
+2024-12-10 20:38:44.206 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:38:44.206 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:38:44.222 [info] > git status -z -uall [5ms]
+2024-12-10 20:38:44.244 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-12-10 20:38:44.244 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:38:49.270 [info] > git config --get commit.template [12ms]
+2024-12-10 20:38:49.272 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-12-10 20:38:49.273 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:38:49.296 [info] > git status -z -uall [8ms]
+2024-12-10 20:38:49.327 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2024-12-10 20:38:49.328 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:38:54.344 [info] > git config --get commit.template [2ms]
+2024-12-10 20:38:54.359 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:38:54.359 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:38:54.375 [info] > git status -z -uall [6ms]
+2024-12-10 20:38:54.403 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2024-12-10 20:38:54.403 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:38:59.430 [info] > git config --get commit.template [13ms]
+2024-12-10 20:38:59.431 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:38:59.431 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:38:59.450 [info] > git status -z -uall [6ms]
+2024-12-10 20:38:59.475 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2024-12-10 20:38:59.475 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:39:04.493 [info] > git config --get commit.template [3ms]
+2024-12-10 20:39:04.509 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:39:04.509 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:39:04.531 [info] > git status -z -uall [6ms]
+2024-12-10 20:39:04.555 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-12-10 20:39:04.555 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:39:09.568 [info] > git config --get commit.template [2ms]
+2024-12-10 20:39:09.583 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:39:09.583 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:39:09.605 [info] > git status -z -uall [10ms]
+2024-12-10 20:39:09.632 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2024-12-10 20:39:09.632 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:39:14.660 [info] > git config --get commit.template [14ms]
+2024-12-10 20:39:14.661 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:39:14.661 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:39:14.682 [info] > git status -z -uall [8ms]
+2024-12-10 20:39:14.716 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [15ms]
+2024-12-10 20:39:14.716 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:39:19.879 [info] > git show --textconv :answer.py [71ms]
+2024-12-10 20:39:19.896 [info] > git config --get commit.template [59ms]
+2024-12-10 20:39:19.916 [info] > git ls-files --stage -- /home/blogger/Documents/Plp_Academy/python-week7/answer.py [37ms]
+2024-12-10 20:39:19.968 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-12-10 20:39:19.969 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:39:20.049 [info] > git status -z -uall [30ms]
+2024-12-10 20:39:20.131 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [37ms]
+2024-12-10 20:39:20.131 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:39:25.159 [info] > git config --get commit.template [14ms]
+2024-12-10 20:39:25.159 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:39:25.159 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:39:25.177 [info] > git status -z -uall [8ms]
+2024-12-10 20:39:25.202 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-12-10 20:39:25.202 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:39:30.225 [info] > git config --get commit.template [11ms]
+2024-12-10 20:39:30.226 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:39:30.226 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:39:30.245 [info] > git status -z -uall [8ms]
+2024-12-10 20:39:30.276 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [15ms]
+2024-12-10 20:39:30.276 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:39:35.298 [info] > git config --get commit.template [13ms]
+2024-12-10 20:39:35.299 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:39:35.299 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:39:35.316 [info] > git status -z -uall [6ms]
+2024-12-10 20:39:35.338 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-12-10 20:39:35.338 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:39:40.368 [info] > git config --get commit.template [14ms]
+2024-12-10 20:39:40.369 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:39:40.369 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:39:40.386 [info] > git status -z -uall [6ms]
+2024-12-10 20:39:40.413 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-12-10 20:39:40.413 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:39:45.436 [info] > git config --get commit.template [12ms]
+2024-12-10 20:39:45.437 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:39:45.437 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:39:45.456 [info] > git status -z -uall [9ms]
+2024-12-10 20:39:45.481 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-12-10 20:39:45.481 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:39:50.504 [info] > git config --get commit.template [13ms]
+2024-12-10 20:39:50.505 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:39:50.505 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:39:50.522 [info] > git status -z -uall [7ms]
+2024-12-10 20:39:50.545 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-12-10 20:39:50.545 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:39:55.574 [info] > git config --get commit.template [14ms]
+2024-12-10 20:39:55.576 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:39:55.577 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:39:55.595 [info] > git status -z -uall [7ms]
+2024-12-10 20:39:55.621 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-12-10 20:39:55.621 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:40:00.646 [info] > git config --get commit.template [11ms]
+2024-12-10 20:40:00.647 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:40:00.647 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:40:00.666 [info] > git status -z -uall [9ms]
+2024-12-10 20:40:00.695 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-12-10 20:40:00.695 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:40:05.723 [info] > git config --get commit.template [13ms]
+2024-12-10 20:40:05.724 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:40:05.724 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:40:05.741 [info] > git status -z -uall [7ms]
+2024-12-10 20:40:05.764 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-12-10 20:40:05.764 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:40:10.789 [info] > git config --get commit.template [11ms]
+2024-12-10 20:40:10.789 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-12-10 20:40:10.790 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:40:10.808 [info] > git status -z -uall [9ms]
+2024-12-10 20:40:10.829 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-12-10 20:40:10.830 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:40:15.854 [info] > git config --get commit.template [13ms]
+2024-12-10 20:40:15.855 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:40:15.855 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:40:15.875 [info] > git status -z -uall [7ms]
+2024-12-10 20:40:15.900 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2024-12-10 20:40:15.900 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:40:20.929 [info] > git config --get commit.template [15ms]
+2024-12-10 20:40:20.930 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:40:20.930 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:40:20.948 [info] > git status -z -uall [5ms]
+2024-12-10 20:40:20.974 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-12-10 20:40:20.974 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:40:25.995 [info] > git config --get commit.template [11ms]
+2024-12-10 20:40:25.996 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:40:25.996 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:40:26.014 [info] > git status -z -uall [7ms]
+2024-12-10 20:40:26.041 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2024-12-10 20:40:26.041 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:40:31.069 [info] > git config --get commit.template [13ms]
+2024-12-10 20:40:31.070 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:40:31.071 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:40:31.094 [info] > git status -z -uall [9ms]
+2024-12-10 20:40:31.126 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2024-12-10 20:40:31.127 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:40:36.150 [info] > git config --get commit.template [13ms]
+2024-12-10 20:40:36.151 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:40:36.151 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:40:36.166 [info] > git status -z -uall [6ms]
+2024-12-10 20:40:36.187 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-12-10 20:40:36.187 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:40:41.211 [info] > git config --get commit.template [12ms]
+2024-12-10 20:40:41.213 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:40:41.213 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:40:41.230 [info] > git status -z -uall [6ms]
+2024-12-10 20:40:41.256 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-12-10 20:40:41.257 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:40:43.986 [info] > git show --textconv :linechart.py [13ms]
+2024-12-10 20:40:43.987 [info] > git ls-files --stage -- /home/blogger/Documents/Plp_Academy/python-week7/linechart.py [2ms]
+2024-12-10 20:40:46.284 [info] > git config --get commit.template [15ms]
+2024-12-10 20:40:46.285 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:40:46.285 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:40:46.312 [info] > git status -z -uall [9ms]
+2024-12-10 20:40:46.349 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2024-12-10 20:40:46.349 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:40:51.370 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:40:51.370 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:40:51.370 [info] > git config --get commit.template [13ms]
+2024-12-10 20:40:51.388 [info] > git status -z -uall [8ms]
+2024-12-10 20:40:51.411 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-12-10 20:40:51.411 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:40:56.433 [info] > git config --get commit.template [11ms]
+2024-12-10 20:40:56.434 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:40:56.434 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:40:56.451 [info] > git status -z -uall [7ms]
+2024-12-10 20:40:56.476 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-12-10 20:40:56.476 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:41:01.515 [info] > git config --get commit.template [4ms]
+2024-12-10 20:41:01.542 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-12-10 20:41:01.544 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:41:01.652 [info] > git status -z -uall [71ms]
+2024-12-10 20:41:01.743 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [35ms]
+2024-12-10 20:41:01.743 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:41:06.759 [info] > git config --get commit.template [11ms]
+2024-12-10 20:41:06.761 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:41:06.761 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:41:06.777 [info] > git status -z -uall [7ms]
+2024-12-10 20:41:06.799 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2024-12-10 20:41:06.799 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:41:11.822 [info] > git config --get commit.template [11ms]
+2024-12-10 20:41:11.822 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-12-10 20:41:11.822 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:41:11.841 [info] > git status -z -uall [6ms]
+2024-12-10 20:41:11.865 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-12-10 20:41:11.865 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:41:16.906 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-12-10 20:41:16.906 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:41:16.907 [info] > git config --get commit.template [25ms]
+2024-12-10 20:41:16.927 [info] > git status -z -uall [9ms]
+2024-12-10 20:41:16.972 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [26ms]
+2024-12-10 20:41:16.975 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:41:22.250 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [235ms]
+2024-12-10 20:41:22.254 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:41:22.255 [info] > git config --get commit.template [255ms]
+2024-12-10 20:41:22.360 [info] > git status -z -uall [78ms]
+2024-12-10 20:41:22.423 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [35ms]
+2024-12-10 20:41:22.423 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:41:27.460 [info] > git config --get commit.template [18ms]
+2024-12-10 20:41:27.462 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:41:27.462 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:41:27.483 [info] > git status -z -uall [10ms]
+2024-12-10 20:41:27.526 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [19ms]
+2024-12-10 20:41:27.527 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:41:32.549 [info] > git config --get commit.template [12ms]
+2024-12-10 20:41:32.550 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:41:32.551 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:41:32.568 [info] > git status -z -uall [8ms]
+2024-12-10 20:41:32.592 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-12-10 20:41:32.593 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:41:37.611 [info] > git config --get commit.template [4ms]
+2024-12-10 20:41:37.627 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:41:37.627 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:41:37.643 [info] > git status -z -uall [6ms]
+2024-12-10 20:41:37.664 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-12-10 20:41:37.664 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:41:42.683 [info] > git config --get commit.template [4ms]
+2024-12-10 20:41:42.704 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-12-10 20:41:42.705 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:41:42.732 [info] > git status -z -uall [11ms]
+2024-12-10 20:41:42.768 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [17ms]
+2024-12-10 20:41:42.768 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:41:47.796 [info] > git config --get commit.template [16ms]
+2024-12-10 20:41:47.798 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:41:47.798 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:41:47.822 [info] > git status -z -uall [8ms]
+2024-12-10 20:41:47.851 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-12-10 20:41:47.851 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:41:52.873 [info] > git config --get commit.template [11ms]
+2024-12-10 20:41:52.875 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:41:52.875 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:41:52.890 [info] > git status -z -uall [7ms]
+2024-12-10 20:41:52.911 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-12-10 20:41:52.911 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:41:57.926 [info] > git config --get commit.template [2ms]
+2024-12-10 20:41:57.943 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:41:57.943 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:41:57.961 [info] > git status -z -uall [7ms]
+2024-12-10 20:41:57.984 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-12-10 20:41:57.984 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:42:03.007 [info] > git config --get commit.template [13ms]
+2024-12-10 20:42:03.008 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:42:03.008 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:42:03.026 [info] > git status -z -uall [6ms]
+2024-12-10 20:42:03.054 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2024-12-10 20:42:03.055 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:42:08.077 [info] > git config --get commit.template [11ms]
+2024-12-10 20:42:08.078 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:42:08.078 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:42:08.096 [info] > git status -z -uall [7ms]
+2024-12-10 20:42:08.120 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2024-12-10 20:42:08.120 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:42:13.149 [info] > git config --get commit.template [15ms]
+2024-12-10 20:42:13.151 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:42:13.151 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:42:13.175 [info] > git status -z -uall [13ms]
+2024-12-10 20:42:13.201 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-12-10 20:42:13.201 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:42:18.224 [info] > git config --get commit.template [12ms]
+2024-12-10 20:42:18.225 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:42:18.225 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:42:18.244 [info] > git status -z -uall [8ms]
+2024-12-10 20:42:18.267 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2024-12-10 20:42:18.267 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:42:23.288 [info] > git config --get commit.template [11ms]
+2024-12-10 20:42:23.289 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:42:23.289 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:42:23.305 [info] > git status -z -uall [6ms]
+2024-12-10 20:42:23.325 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-12-10 20:42:23.325 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:42:28.342 [info] > git config --get commit.template [3ms]
+2024-12-10 20:42:28.357 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:42:28.357 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:42:28.380 [info] > git status -z -uall [7ms]
+2024-12-10 20:42:28.403 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-12-10 20:42:28.403 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:42:33.422 [info] > git config --get commit.template [10ms]
+2024-12-10 20:42:33.424 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:42:33.424 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:42:33.440 [info] > git status -z -uall [7ms]
+2024-12-10 20:42:33.463 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-12-10 20:42:33.463 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:42:38.488 [info] > git config --get commit.template [16ms]
+2024-12-10 20:42:38.489 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:42:38.489 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:42:38.506 [info] > git status -z -uall [6ms]
+2024-12-10 20:42:38.527 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2024-12-10 20:42:38.528 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:42:43.556 [info] > git config --get commit.template [16ms]
+2024-12-10 20:42:43.557 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:42:43.557 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:42:43.579 [info] > git status -z -uall [9ms]
+2024-12-10 20:42:43.608 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-12-10 20:42:43.608 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:42:48.631 [info] > git config --get commit.template [12ms]
+2024-12-10 20:42:48.632 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:42:48.632 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:42:48.648 [info] > git status -z -uall [6ms]
+2024-12-10 20:42:48.668 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-12-10 20:42:48.669 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:42:53.695 [info] > git config --get commit.template [13ms]
+2024-12-10 20:42:53.696 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:42:53.696 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:42:53.715 [info] > git status -z -uall [6ms]
+2024-12-10 20:42:53.745 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2024-12-10 20:42:53.745 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:42:58.768 [info] > git config --get commit.template [15ms]
+2024-12-10 20:42:58.769 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:42:58.769 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:42:58.789 [info] > git status -z -uall [8ms]
+2024-12-10 20:42:58.812 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-12-10 20:42:58.812 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:43:03.835 [info] > git config --get commit.template [11ms]
+2024-12-10 20:43:03.836 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:43:03.836 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:43:03.852 [info] > git status -z -uall [6ms]
+2024-12-10 20:43:03.873 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-12-10 20:43:03.873 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:43:08.899 [info] > git config --get commit.template [13ms]
+2024-12-10 20:43:08.900 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:43:08.900 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:43:08.918 [info] > git status -z -uall [6ms]
+2024-12-10 20:43:08.943 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-12-10 20:43:08.944 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:43:13.966 [info] > git config --get commit.template [11ms]
+2024-12-10 20:43:13.968 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:43:13.968 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:43:13.988 [info] > git status -z -uall [8ms]
+2024-12-10 20:43:14.012 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-12-10 20:43:14.012 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:43:19.047 [info] > git config --get commit.template [1ms]
+2024-12-10 20:43:19.091 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2024-12-10 20:43:19.091 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:43:19.129 [info] > git status -z -uall [18ms]
+2024-12-10 20:43:19.196 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [36ms]
+2024-12-10 20:43:19.199 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:43:24.221 [info] > git config --get commit.template [15ms]
+2024-12-10 20:43:24.222 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:43:24.222 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:43:24.241 [info] > git status -z -uall [6ms]
+2024-12-10 20:43:24.270 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2024-12-10 20:43:24.270 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:43:29.304 [info] > git config --get commit.template [5ms]
+2024-12-10 20:43:29.336 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:43:29.336 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:43:29.359 [info] > git status -z -uall [10ms]
+2024-12-10 20:43:29.397 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [19ms]
+2024-12-10 20:43:29.398 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:43:34.428 [info] > git config --get commit.template [8ms]
+2024-12-10 20:43:34.456 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-12-10 20:43:34.456 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:43:34.483 [info] > git status -z -uall [10ms]
+2024-12-10 20:43:34.531 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
+2024-12-10 20:43:34.531 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:43:39.599 [info] > git config --get commit.template [28ms]
+2024-12-10 20:43:39.603 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-12-10 20:43:39.603 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:43:39.627 [info] > git status -z -uall [7ms]
+2024-12-10 20:43:39.687 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [26ms]
+2024-12-10 20:43:39.689 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:43:44.701 [info] > git config --get commit.template [4ms]
+2024-12-10 20:43:44.719 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:43:44.720 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:43:44.752 [info] > git status -z -uall [15ms]
+2024-12-10 20:43:44.807 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [16ms]
+2024-12-10 20:43:44.808 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:43:49.832 [info] > git config --get commit.template [1ms]
+2024-12-10 20:43:49.858 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-12-10 20:43:49.858 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:43:49.908 [info] > git status -z -uall [33ms]
+2024-12-10 20:43:49.986 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [38ms]
+2024-12-10 20:43:49.990 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:43:55.025 [info] > git config --get commit.template [1ms]
+2024-12-10 20:43:55.049 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:43:55.049 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:43:55.074 [info] > git status -z -uall [10ms]
+2024-12-10 20:43:55.157 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [47ms]
+2024-12-10 20:43:55.157 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:44:00.196 [info] > git config --get commit.template [20ms]
+2024-12-10 20:44:00.197 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:44:00.198 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:44:00.232 [info] > git status -z -uall [12ms]
+2024-12-10 20:44:00.286 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [25ms]
+2024-12-10 20:44:00.287 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:44:05.294 [info] > git config --get commit.template [2ms]
+2024-12-10 20:44:05.306 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:44:05.306 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:44:05.323 [info] > git status -z -uall [6ms]
+2024-12-10 20:44:05.346 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-12-10 20:44:05.346 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:44:10.367 [info] > git config --get commit.template [12ms]
+2024-12-10 20:44:10.369 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:44:10.369 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:44:10.387 [info] > git status -z -uall [6ms]
+2024-12-10 20:44:10.414 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2024-12-10 20:44:10.414 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:44:15.435 [info] > git config --get commit.template [11ms]
+2024-12-10 20:44:15.436 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:44:15.437 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:44:15.453 [info] > git status -z -uall [7ms]
+2024-12-10 20:44:15.483 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2024-12-10 20:44:15.483 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:44:20.507 [info] > git config --get commit.template [5ms]
+2024-12-10 20:44:20.524 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:44:20.524 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:44:20.549 [info] > git status -z -uall [10ms]
+2024-12-10 20:44:20.601 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [30ms]
+2024-12-10 20:44:20.602 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:44:25.678 [info] > git config --get commit.template [13ms]
+2024-12-10 20:44:25.722 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2024-12-10 20:44:25.727 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:44:25.784 [info] > git status -z -uall [40ms]
+2024-12-10 20:44:26.168 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [313ms]
+2024-12-10 20:44:26.169 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:44:30.959 [info] > git config --get commit.template [6ms]
+2024-12-10 20:44:30.977 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-12-10 20:44:30.978 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:44:31.002 [info] > git status -z -uall [6ms]
+2024-12-10 20:44:31.026 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-12-10 20:44:31.027 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:44:36.054 [info] > git config --get commit.template [5ms]
+2024-12-10 20:44:36.078 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-12-10 20:44:36.079 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:44:36.108 [info] > git status -z -uall [14ms]
+2024-12-10 20:44:36.157 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
+2024-12-10 20:44:36.158 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:44:41.177 [info] > git config --get commit.template [5ms]
+2024-12-10 20:44:41.206 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:44:41.206 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:44:41.234 [info] > git status -z -uall [9ms]
+2024-12-10 20:44:41.272 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2024-12-10 20:44:41.272 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:44:46.299 [info] > git config --get commit.template [14ms]
+2024-12-10 20:44:46.300 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:44:46.300 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:44:46.318 [info] > git status -z -uall [7ms]
+2024-12-10 20:44:46.348 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2024-12-10 20:44:46.348 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:44:51.375 [info] > git config --get commit.template [14ms]
+2024-12-10 20:44:51.377 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:44:51.377 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:44:51.400 [info] > git status -z -uall [11ms]
+2024-12-10 20:44:51.448 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [28ms]
+2024-12-10 20:44:51.448 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:44:56.522 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [27ms]
+2024-12-10 20:44:56.523 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:44:56.524 [info] > git config --get commit.template [39ms]
+2024-12-10 20:44:56.604 [info] > git status -z -uall [60ms]
+2024-12-10 20:44:56.672 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [19ms]
+2024-12-10 20:44:56.673 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:45:01.701 [info] > git config --get commit.template [16ms]
+2024-12-10 20:45:01.702 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:45:01.702 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:45:01.718 [info] > git status -z -uall [7ms]
+2024-12-10 20:45:01.741 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-12-10 20:45:01.741 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:45:06.762 [info] > git config --get commit.template [13ms]
+2024-12-10 20:45:06.763 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:45:06.763 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:45:06.780 [info] > git status -z -uall [7ms]
+2024-12-10 20:45:06.818 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
+2024-12-10 20:45:06.818 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:45:11.844 [info] > git config --get commit.template [4ms]
+2024-12-10 20:45:11.975 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:45:11.976 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:45:12.008 [info] > git status -z -uall [11ms]
+2024-12-10 20:45:12.047 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
+2024-12-10 20:45:12.047 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:45:13.879 [info] > git check-ignore -v -z --stdin [611ms]
+2024-12-10 20:45:17.087 [info] > git config --get commit.template [4ms]
+2024-12-10 20:45:17.110 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:45:17.110 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:45:17.126 [info] > git status -z -uall [6ms]
+2024-12-10 20:45:17.153 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2024-12-10 20:45:17.154 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:46:27.405 [info] > git config --get commit.template [4ms]
+2024-12-10 20:46:27.461 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 20:46:27.461 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:46:27.522 [info] > git status -z -uall [15ms]
+2024-12-10 20:46:27.566 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [16ms]
+2024-12-10 20:46:27.566 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:46:32.592 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 20:46:32.592 [warning] [Git][getBranch] No such branch: main
+2024-12-10 20:46:32.593 [info] > git config --get commit.template [16ms]
+2024-12-10 20:46:32.612 [info] > git status -z -uall [7ms]
+2024-12-10 20:46:32.642 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2024-12-10 20:46:32.642 [warning] [Git][getBranch] No such branch: main
+2024-12-10 21:00:43.467 [info] > git show --textconv :answer.py [29ms]
+2024-12-10 21:00:43.479 [info] > git ls-files --stage -- /home/blogger/Documents/Plp_Academy/python-week7/answer.py [16ms]
+2024-12-10 21:05:04.643 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-12-10 21:05:04.643 [warning] [Git][getBranch] No such branch: main
+2024-12-10 21:05:04.644 [info] > git config --get commit.template [26ms]
+2024-12-10 21:05:04.717 [info] > git status -z -uall [57ms]
+2024-12-10 21:05:04.754 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
+2024-12-10 21:05:04.755 [warning] [Git][getBranch] No such branch: main
+2024-12-10 21:05:09.784 [info] > git config --get commit.template [15ms]
+2024-12-10 21:05:09.785 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 21:05:09.785 [warning] [Git][getBranch] No such branch: main
+2024-12-10 21:05:09.802 [info] > git status -z -uall [7ms]
+2024-12-10 21:05:09.836 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2024-12-10 21:05:09.836 [warning] [Git][getBranch] No such branch: main
+2024-12-10 21:05:14.863 [info] > git config --get commit.template [12ms]
+2024-12-10 21:05:14.864 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-10 21:05:14.864 [warning] [Git][getBranch] No such branch: main
+2024-12-10 21:05:14.882 [info] > git status -z -uall [7ms]
+2024-12-10 21:05:14.918 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [19ms]
+2024-12-10 21:05:14.918 [warning] [Git][getBranch] No such branch: main
+2024-12-10 21:05:19.938 [info] > git config --get commit.template [2ms]
+2024-12-10 21:05:19.954 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-12-10 21:05:19.954 [warning] [Git][getBranch] No such branch: main
+2024-12-10 21:05:19.976 [info] > git status -z -uall [5ms]
+2024-12-10 21:05:20.002 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-12-10 21:05:20.003 [warning] [Git][getBranch] No such branch: main

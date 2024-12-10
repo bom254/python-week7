@@ -1,0 +1,52 @@
+2024-12-10 20:20:28.996 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-12-10 20:20:28.996 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-12-10 20:20:28.996 [info] Experiment 'pythonTestAdapter' is active
+2024-12-10 20:20:28.996 [info] Native locator: Refresh started
+2024-12-10 20:20:28.996 [info] Default formatter is set to null for workspace /home/blogger/Documents/Plp_Academy/python-week7
+2024-12-10 20:20:28.996 [info] Native locator: Refresh started
+2024-12-10 20:20:28.996 [info] > pyenv which python
+2024-12-10 20:20:28.996 [info] cwd: .
+2024-12-10 20:20:33.684 [info] Native locator: Refresh finished in 17949 ms
+2024-12-10 20:20:33.697 [info] > pixi --version
+2024-12-10 20:20:33.698 [warning] could not find a pixi interpreter for the interpreter at python
+2024-12-10 20:20:33.706 [warning] could not find a pixi interpreter for the interpreter at python
+2024-12-10 20:20:33.706 [warning] could not find a pixi interpreter for the interpreter at python
+2024-12-10 20:20:33.707 [warning] could not find a pixi interpreter for the interpreter at python
+2024-12-10 20:20:33.716 [info] > python -c "import sys;print(sys.executable)"
+2024-12-10 20:20:34.500 [info] Python interpreter path: /usr/bin/python
+2024-12-10 20:20:34.504 [warning] could not find a pixi interpreter for the interpreter at /usr/bin/python
+2024-12-10 20:20:34.566 [info] > pyenv which python
+2024-12-10 20:20:34.566 [info] cwd: .
+2024-12-10 20:20:34.599 [warning] could not find a pixi interpreter for the interpreter at python
+2024-12-10 20:20:34.611 [warning] could not find a pixi interpreter for the interpreter at python
+2024-12-10 20:20:34.620 [warning] could not find a pixi interpreter for the interpreter at /usr/bin/python
+2024-12-10 20:20:36.128 [info] Starting Pylance language server.
+2024-12-10 20:20:36.140 [warning] could not find a pixi interpreter for the interpreter at python
+2024-12-10 20:20:36.143 [warning] could not find a pixi interpreter for the interpreter at python
+2024-12-10 20:20:36.180 [warning] could not find a pixi interpreter for the interpreter at python
+2024-12-10 20:20:36.199 [warning] could not find a pixi interpreter for the interpreter at python
+2024-12-10 20:20:49.226 [warning] could not find a pixi interpreter for the interpreter at python
+2024-12-10 20:28:39.699 [warning] could not find a pixi interpreter for the interpreter at python
+2024-12-10 20:28:40.134 [warning] could not find a pixi interpreter for the interpreter at python
+2024-12-10 20:28:48.400 [warning] could not find a pixi interpreter for the interpreter at python
+2024-12-10 20:29:17.606 [warning] could not find a pixi interpreter for the interpreter at python
+2024-12-10 20:29:17.774 [warning] could not find a pixi interpreter for the interpreter at python
+2024-12-10 20:29:25.491 [warning] could not find a pixi interpreter for the interpreter at python
+2024-12-10 20:30:40.759 [warning] could not find a pixi interpreter for the interpreter at python
+2024-12-10 20:30:40.951 [warning] could not find a pixi interpreter for the interpreter at python
+2024-12-10 20:37:45.542 [warning] could not find a pixi interpreter for the interpreter at python
+2024-12-10 20:37:45.984 [warning] could not find a pixi interpreter for the interpreter at python
+2024-12-10 20:38:03.735 [warning] could not find a pixi interpreter for the interpreter at python
+2024-12-10 20:38:40.426 [warning] could not find a pixi interpreter for the interpreter at python
+2024-12-10 20:38:40.459 [warning] could not find a pixi interpreter for the interpreter at python
+2024-12-10 20:39:19.353 [warning] could not find a pixi interpreter for the interpreter at python
+2024-12-10 20:39:19.389 [warning] could not find a pixi interpreter for the interpreter at python
+2024-12-10 20:40:43.746 [warning] could not find a pixi interpreter for the interpreter at python
+2024-12-10 20:40:43.762 [warning] could not find a pixi interpreter for the interpreter at python
+2024-12-10 20:40:58.773 [info] Discover tests for workspace name: python-week7 - uri: /home/blogger/Documents/Plp_Academy/python-week7/linechart.py
+2024-12-10 20:44:54.438 [info] Discover tests for workspace name: python-week7 - uri: /home/blogger/Documents/Plp_Academy/python-week7/linechart.py
+2024-12-10 20:45:17.847 [info] Discover tests for workspace name: python-week7 - uri: /home/blogger/Documents/Plp_Academy/python-week7/linechart.py
+2024-12-10 21:00:43.083 [warning] could not find a pixi interpreter for the interpreter at python
+2024-12-10 21:00:43.303 [warning] could not find a pixi interpreter for the interpreter at python
+2024-12-10 21:05:16.668 [warning] could not find a pixi interpreter for the interpreter at python
+2024-12-10 21:05:16.772 [warning] could not find a pixi interpreter for the interpreter at python

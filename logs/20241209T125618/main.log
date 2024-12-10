@@ -1,0 +1,11 @@
+2024-12-09 12:56:22.416 [info] update#setState idle
+2024-12-09 12:56:52.583 [info] update#setState checking for updates
+2024-12-09 12:56:52.837 [info] update#setState available for download
+2024-12-09 12:57:38.358 [info] Extension host with pid 87655 exited with code: 0, signal: unknown.
+2024-12-09 14:44:59.776 [warning] No ptyHost heartbeat after 6 seconds
+2024-12-09 15:27:00.334 [info] Extension host with pid 88402 exited with code: 0, signal: unknown.
+2024-12-09 15:27:30.211 [info] Extension host with pid 174702 exited with code: 0, signal: unknown.
+2024-12-09 15:27:31.216 [error] Extension host with pid 174702 still exists, forcefully killing it...
+2024-12-09 16:55:40.399 [warning] No ptyHost heartbeat after 6 seconds
+2024-12-09 16:57:24.954 [warning] No ptyHost heartbeat after 6 seconds
+2024-12-09 16:58:47.052 [error] No ptyHost heartbeat after 12 seconds

@@ -1,0 +1,2037 @@
+2024-12-10 20:19:06.642 [info] Extension host with pid 28459 started
+2024-12-10 20:19:06.642 [info] Skipping acquiring lock for /home/blogger/Documents/Plp_Academy/python-week7/User/workspaceStorage/5e69b24445d71735ebf20f00f0cd8219.
+2024-12-10 20:19:07.468 [info] ExtensionService#_doActivateExtension mechatroner.rainbow-csv, startup: false, activationEvent: 'onLanguage:plaintext'
+2024-12-10 20:19:07.961 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-12-10 20:19:08.573 [info] ExtensionService#_doActivateExtension Dart-Code.dart-code, startup: false, activationEvent: 'onLanguage:dart'
+2024-12-10 20:19:09.839 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-12-10 20:19:10.071 [info] ExtensionService#_doActivateExtension johnpapa.vscode-peacock, startup: true, activationEvent: '*'
+2024-12-10 20:19:10.326 [info] ExtensionService#_doActivateExtension ksfunc.vscode-sticky-selection, startup: true, activationEvent: '*'
+2024-12-10 20:19:11.412 [info] ExtensionService#_doActivateExtension michelemelluso.code-beautifier, startup: true, activationEvent: '*'
+2024-12-10 20:19:13.188 [info] ExtensionService#_doActivateExtension mtxr.sqltools, startup: true, activationEvent: '*'
+2024-12-10 20:19:13.373 [info] ExtensionService#_doActivateExtension WakaTime.vscode-wakatime, startup: true, activationEvent: '*'
+2024-12-10 20:19:15.592 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-12-10 20:19:17.456 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-12-10 20:19:17.565 [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare, startup: false, activationEvent: 'api', root cause: johnpapa.vscode-peacock
+2024-12-10 20:19:18.940 [info] Not activating extension 'Dart-Code.dart-code': Timed out while searching for 'workspaceContains' pattern */pubspec.yaml,*/*/pubspec.yaml,*.dart,*/*.dart,*/*/*.dart
+2024-12-10 20:19:18.940 [info] Not activating extension 'glenn2223.live-sass': Timed out while searching for 'workspaceContains' pattern **/*.s[ac]ss
+2024-12-10 20:19:18.983 [info] ExtensionService#_doActivateExtension mtxr.sqltools-driver-mysql, startup: true, activationEvent: '*'
+2024-12-10 20:19:19.034 [info] ExtensionService#_doActivateExtension mtxr.sqltools-driver-pg, startup: true, activationEvent: '*'
+2024-12-10 20:19:20.489 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-12-10 20:19:20.536 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-12-10 20:19:20.593 [info] ExtensionService#_doActivateExtension cweijan.vscode-mysql-client2, startup: false, activationEvent: 'onStartupFinished'
+2024-12-10 20:19:22.851 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-12-10 20:19:23.102 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2024-12-10 20:19:23.328 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2024-12-10 20:19:25.202 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2024-12-10 20:19:28.461 [info] ExtensionService#_doActivateExtension Katsute.code-background, startup: false, activationEvent: 'onStartupFinished'
+2024-12-10 20:19:28.520 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2024-12-10 20:19:28.692 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished'
+2024-12-10 20:19:30.896 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-12-10 20:19:31.268 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-12-10 20:19:31.694 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-12-10 20:19:32.113 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-12-10 20:19:41.286 [info] Eager extensions activated
+2024-12-10 20:19:41.331 [info] ExtensionService#_doActivateExtension Dart-Code.flutter, startup: false, activationEvent: 'api', root cause: Dart-Code.dart-code
+2024-12-10 20:20:03.212 [info] Extension host terminating: renderer closed the MessagePort
+2024-12-10 20:20:03.493 [error] Canceled: Canceled
+    at new C (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:35204)
+    at E.U (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:6017)
+    at Proxy.B.<computed>.j.charCodeAt.R.CharCode.DollarSign.B.<computed> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:3107)
+    at d.g (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:205942)
+    at d.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:205380)
+    at A.registerCommand.description (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:204704)
+    at d.h (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:206481)
+    at d.g (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:205473)
+    at d.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:205380)
+    at Object.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:164:23060)
+    at i.O [as value] (/usr/share/code/resources/app/extensions/git/dist/main.js:2:951642)
+    at n.B (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+    at n.C (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:807)
+    at n.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:1023)
+    at Object.p [as dispose] (/usr/share/code/resources/app/extensions/git/dist/main.js:2:972220)
+    at /usr/share/code/resources/app/extensions/git/dist/main.js:2:978342
+    at Array.forEach (<anonymous>)
+    at f.dispose (/usr/share/code/resources/app/extensions/git/dist/main.js:2:978328)
+    at a.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:152:4173)
+    at a.dispose (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:152:4270)
+    at a.<anonymous> (/usr/share/code/resources/app/extensions/git/dist/main.js:2:953940)
+    at a.dispose (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:152:4270)
+    at $ (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+    at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:13379
+    at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:1112
+    at Object.dispose (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:11:11354)
+    at m.eb (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:10056)
+    at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:7927
+    at Array.map (<anonymous>)
+    at m.$ (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:7914)
+    at m.terminate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:8187)
+    at $.terminate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+    at o (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:177:10633)
+    at MessagePortMain.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:177:6825)
+    at MessagePortMain.emit (node:events:519:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-12-10 20:20:03.503 [error] Canceled: Canceled
+    at new C (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:35204)
+    at E.U (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:6017)
+    at Proxy.B.<computed>.j.charCodeAt.R.CharCode.DollarSign.B.<computed> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:3107)
+    at d.g (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:205942)
+    at d.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:205380)
+    at A.registerCommand.description (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:204704)
+    at d.h (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:206481)
+    at d.g (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:205473)
+    at d.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:205380)
+    at Object.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:164:23060)
+    at a.VscodeDevShareProvider.set hasGitHubRepositories [as hasGitHubRepositories] (/usr/share/code/resources/app/extensions/github/dist/extension.js:2:322969)
+    at /usr/share/code/resources/app/extensions/github/dist/extension.js:2:323928
+    at i.value (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1060193)
+    at n.B (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:737)
+    at n.C (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:807)
+    at n.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:83:1023)
+    at Object.p [as dispose] (/usr/share/code/resources/app/extensions/git/dist/main.js:2:972220)
+    at /usr/share/code/resources/app/extensions/git/dist/main.js:2:978342
+    at Array.forEach (<anonymous>)
+    at f.dispose (/usr/share/code/resources/app/extensions/git/dist/main.js:2:978328)
+    at a.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:152:4173)
+    at a.dispose (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:152:4270)
+    at a.<anonymous> (/usr/share/code/resources/app/extensions/git/dist/main.js:2:953940)
+    at a.dispose (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:152:4270)
+    at $ (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+    at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:13379
+    at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:1112
+    at Object.dispose (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:11:11354)
+    at m.eb (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:10056)
+    at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:7927
+    at Array.map (<anonymous>)
+    at m.$ (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:7914)
+    at m.terminate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:8187)
+    at $.terminate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+    at o (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:177:10633)
+    at MessagePortMain.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:177:6825)
+    at MessagePortMain.emit (node:events:519:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-12-10 20:20:03.507 [error] Canceled: Canceled
+    at new C (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:35204)
+    at E.U (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:6017)
+    at Proxy.B.<computed>.j.charCodeAt.R.CharCode.DollarSign.B.<computed> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:3107)
+    at d.g (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:205942)
+    at d.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:205380)
+    at A.registerCommand.description (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:204704)
+    at d.h (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:206481)
+    at d.g (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:205473)
+    at d.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:205380)
+    at Object.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:164:23060)
+    at setCommandVisiblity (/root/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14263:22)
+    at /root/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14238:26
+    at tryCleanup (/root/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14272:15)
+    at Object.deactivate (/root/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14238:9)
+    at m.eb (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:9856)
+    at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:7927
+    at Array.map (<anonymous>)
+    at m.$ (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:7914)
+    at m.terminate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:8187)
+    at $.terminate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+    at o (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:177:10633)
+    at MessagePortMain.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:177:6825)
+    at MessagePortMain.emit (node:events:519:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-12-10 20:20:03.510 [error] Canceled: Canceled
+    at new C (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:35204)
+    at E.U (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:6017)
+    at Proxy.B.<computed>.j.charCodeAt.R.CharCode.DollarSign.B.<computed> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:3107)
+    at d.g (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:205942)
+    at d.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:205380)
+    at A.registerCommand.description (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:204704)
+    at d.h (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:206481)
+    at d.g (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:205473)
+    at d.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:205380)
+    at Object.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:164:23060)
+    at setCommandVisiblity (/root/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14264:22)
+    at /root/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14238:26
+    at tryCleanup (/root/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14272:15)
+    at Object.deactivate (/root/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14238:9)
+    at m.eb (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:9856)
+    at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:7927
+    at Array.map (<anonymous>)
+    at m.$ (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:7914)
+    at m.terminate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:8187)
+    at $.terminate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+    at o (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:177:10633)
+    at MessagePortMain.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:177:6825)
+    at MessagePortMain.emit (node:events:519:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-12-10 20:20:03.512 [error] Canceled: Canceled
+    at new C (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:35204)
+    at E.U (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:6017)
+    at Proxy.B.<computed>.j.charCodeAt.R.CharCode.DollarSign.B.<computed> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:3107)
+    at d.g (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:205942)
+    at d.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:205380)
+    at A.registerCommand.description (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:204704)
+    at d.h (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:206481)
+    at d.g (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:205473)
+    at d.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:205380)
+    at Object.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:164:23060)
+    at setCommandVisiblity (/root/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14265:22)
+    at /root/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14238:26
+    at tryCleanup (/root/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14272:15)
+    at Object.deactivate (/root/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14238:9)
+    at m.eb (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:9856)
+    at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:7927
+    at Array.map (<anonymous>)
+    at m.$ (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:7914)
+    at m.terminate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:8187)
+    at $.terminate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+    at o (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:177:10633)
+    at MessagePortMain.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:177:6825)
+    at MessagePortMain.emit (node:events:519:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-12-10 20:20:03.521 [error] Canceled: Canceled
+    at new C (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:35204)
+    at E.U (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:6017)
+    at Proxy.B.<computed>.j.charCodeAt.R.CharCode.DollarSign.B.<computed> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:3107)
+    at d.g (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:205942)
+    at d.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:205380)
+    at A.registerCommand.description (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:204704)
+    at d.h (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:206481)
+    at d.g (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:205473)
+    at d.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:205380)
+    at Object.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:164:23060)
+    at setCommandVisiblity (/root/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14266:22)
+    at /root/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14238:26
+    at tryCleanup (/root/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14272:15)
+    at Object.deactivate (/root/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14238:9)
+    at m.eb (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:9856)
+    at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:7927
+    at Array.map (<anonymous>)
+    at m.$ (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:7914)
+    at m.terminate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:8187)
+    at $.terminate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+    at o (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:177:10633)
+    at MessagePortMain.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:177:6825)
+    at MessagePortMain.emit (node:events:519:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-12-10 20:20:03.525 [error] Canceled: Canceled
+    at new C (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:35204)
+    at E.U (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:6017)
+    at Proxy.B.<computed>.j.charCodeAt.R.CharCode.DollarSign.B.<computed> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:3107)
+    at d.g (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:205942)
+    at d.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:205380)
+    at A.registerCommand.description (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:204704)
+    at d.h (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:206481)
+    at d.g (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:205473)
+    at d.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:205380)
+    at Object.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:164:23060)
+    at /root/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14241:38
+    at tryCleanup (/root/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14272:15)
+    at Object.deactivate (/root/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:14241:9)
+    at m.eb (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:9856)
+    at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:7927
+    at Array.map (<anonymous>)
+    at m.$ (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:7914)
+    at m.terminate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:8187)
+    at $.terminate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+    at o (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:177:10633)
+    at MessagePortMain.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:177:6825)
+    at MessagePortMain.emit (node:events:519:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-12-10 20:20:03.527 [error] Canceled: Canceled
+    at new C (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:35204)
+    at E.U (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:6017)
+    at Proxy.B.<computed>.j.charCodeAt.R.CharCode.DollarSign.B.<computed> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:3107)
+    at d.g (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:205942)
+    at d.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:205380)
+    at A.registerCommand.description (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:204704)
+    at d.h (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:206481)
+    at d.g (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:205473)
+    at d.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:205380)
+    at Object.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:164:23060)
+    at VsCodeDartToolingDaemon.dispose (/root/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:12177:32)
+    at $ (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+    at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:13379
+    at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:1112
+    at Object.dispose (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:11:11354)
+    at m.eb (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:10056)
+    at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:7927
+    at Array.map (<anonymous>)
+    at m.$ (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:7914)
+    at m.terminate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:160:8187)
+    at $.terminate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+    at o (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:177:10633)
+    at MessagePortMain.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:177:6825)
+    at MessagePortMain.emit (node:events:519:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-12-10 20:20:03.603 [error] Canceled: Canceled
+    at new C (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:35204)
+    at E.U (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:6017)
+    at Proxy.B.<computed>.j.charCodeAt.R.CharCode.DollarSign.B.<computed> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:3107)
+    at d.g (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:205942)
+    at d.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:205380)
+    at A.registerCommand.description (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:204704)
+    at d.h (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:206481)
+    at d.g (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:205473)
+    at d.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:205380)
+    at Object.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:164:23060)
+    at VsCodeDartToolingDaemon.dispose (/root/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:12177:32)
+    at VsCodeDartToolingDaemon.handleClose (/root/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:27481:14)
+    at VsCodeDartToolingDaemon.handleClose (/root/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:12140:15)
+    at /root/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:27347:58
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) setContext undefined
+2024-12-10 20:20:03.631 [error] Canceled: Canceled
+    at new C (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:35204)
+    at E.U (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:6017)
+    at Proxy.B.<computed>.j.charCodeAt.R.CharCode.DollarSign.B.<computed> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:3107)
+    at d.g (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:205942)
+    at d.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:205380)
+    at A.registerCommand.description (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:204704)
+    at d.h (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:206481)
+    at d.g (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:205473)
+    at d.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:205380)
+    at Object.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:164:23060)
+    at VsCodeDartToolingDaemon.dispose (/root/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:12177:32)
+    at VsCodeDartToolingDaemon.handleClose (/root/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:27481:14)
+    at VsCodeDartToolingDaemon.handleClose (/root/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:12140:15)
+    at WebSocket.<anonymous> (/root/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:27361:39)
+    at WebSocket.emit (node:events:519:28)
+    at WebSocket.emitClose (/root/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:56605:10)
+    at Receiver.receiverOnFinish (/root/.vscode/extensions/dart-code.dart-code-3.102.0/out/dist/extension.js:57542:20)
+    at Receiver.emit (node:events:519:28)
+    at finish (node:internal/streams/writable:946:10)
+    at node:internal/streams/writable:927:13
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) setContext undefined
+2024-12-10 20:20:03.803 [info] Extension host with pid 28459 exiting with code 0
+2024-12-10 20:20:12.381 [info] Extension host with pid 29408 started
+2024-12-10 20:20:12.381 [info] Skipping acquiring lock for /home/blogger/Documents/Plp_Academy/python-week7/User/workspaceStorage/7bf98403961f4a844ecea545581a9b24.
+2024-12-10 20:20:13.498 [info] ExtensionService#_doActivateExtension mechatroner.rainbow-csv, startup: false, activationEvent: 'onLanguage:plaintext'
+2024-12-10 20:20:13.530 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-12-10 20:20:13.559 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2024-12-10 20:20:15.807 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-12-10 20:20:15.822 [info] ExtensionService#_doActivateExtension johnpapa.vscode-peacock, startup: true, activationEvent: '*'
+2024-12-10 20:20:15.923 [info] ExtensionService#_doActivateExtension ksfunc.vscode-sticky-selection, startup: true, activationEvent: '*'
+2024-12-10 20:20:15.993 [info] ExtensionService#_doActivateExtension michelemelluso.code-beautifier, startup: true, activationEvent: '*'
+2024-12-10 20:20:16.177 [info] ExtensionService#_doActivateExtension mtxr.sqltools, startup: true, activationEvent: '*'
+2024-12-10 20:20:16.321 [info] ExtensionService#_doActivateExtension WakaTime.vscode-wakatime, startup: true, activationEvent: '*'
+2024-12-10 20:20:18.136 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-12-10 20:20:18.313 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-12-10 20:20:18.335 [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare, startup: false, activationEvent: 'api', root cause: johnpapa.vscode-peacock
+2024-12-10 20:20:19.196 [info] ExtensionService#_doActivateExtension mtxr.sqltools-driver-mysql, startup: true, activationEvent: '*'
+2024-12-10 20:20:19.201 [info] ExtensionService#_doActivateExtension mtxr.sqltools-driver-pg, startup: true, activationEvent: '*'
+2024-12-10 20:20:19.227 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-12-10 20:20:21.221 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2024-12-10 20:20:26.918 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-12-10 20:20:26.925 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-12-10 20:20:26.949 [info] ExtensionService#_doActivateExtension cweijan.vscode-mysql-client2, startup: false, activationEvent: 'onStartupFinished'
+2024-12-10 20:20:27.606 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-12-10 20:20:27.680 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2024-12-10 20:20:27.773 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2024-12-10 20:20:28.190 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2024-12-10 20:20:28.297 [info] ExtensionService#_doActivateExtension Katsute.code-background, startup: false, activationEvent: 'onStartupFinished'
+2024-12-10 20:20:28.304 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2024-12-10 20:20:28.314 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished'
+2024-12-10 20:20:29.308 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-12-10 20:20:29.317 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-12-10 20:20:29.358 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-12-10 20:20:29.407 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-12-10 20:20:31.163 [warning] [Decorations] CAPPING events from decorations provider vscode.git 635
+2024-12-10 20:20:31.661 [warning] [Decorations] CAPPING events from decorations provider vscode.git 635
+2024-12-10 20:20:32.332 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:20:32.354 [info] Eager extensions activated
+2024-12-10 20:20:32.685 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:20:34.186 [warning] [Decorations] CAPPING events from decorations provider vscode.git 635
+2024-12-10 20:20:35.198 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:20:41.807 [warning] [Decorations] CAPPING events from decorations provider vscode.git 637
+2024-12-10 20:20:42.821 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:20:46.912 [warning] [Decorations] CAPPING events from decorations provider vscode.git 637
+2024-12-10 20:20:47.921 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:20:49.357 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2024-12-10 20:20:49.581 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2024-12-10 20:20:54.770 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2024-12-10 20:21:31.585 [warning] [Decorations] CAPPING events from decorations provider vscode.git 641
+2024-12-10 20:21:32.590 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:21:36.647 [warning] [Decorations] CAPPING events from decorations provider vscode.git 641
+2024-12-10 20:21:37.654 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:21:41.718 [warning] [Decorations] CAPPING events from decorations provider vscode.git 641
+2024-12-10 20:21:42.725 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:21:46.786 [warning] [Decorations] CAPPING events from decorations provider vscode.git 641
+2024-12-10 20:21:47.793 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:21:51.907 [warning] [Decorations] CAPPING events from decorations provider vscode.git 641
+2024-12-10 20:21:52.917 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:28:35.520 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:28:36.533 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:28:40.720 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:28:41.748 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:28:45.819 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:28:46.834 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:28:50.905 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:28:51.913 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:28:55.985 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:28:56.990 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:29:01.058 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:29:02.069 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:29:06.158 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:29:07.168 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:29:11.238 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:29:12.246 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:29:16.351 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:29:17.363 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:29:21.431 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:29:22.436 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:29:26.531 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:29:27.568 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:29:31.645 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:29:32.658 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:29:36.933 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:29:37.991 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:29:42.079 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:29:43.091 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:29:47.283 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:29:48.294 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:29:52.355 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:29:53.363 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:29:57.445 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:29:58.452 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:30:02.519 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:30:03.530 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:30:07.597 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:30:08.605 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:30:12.685 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:30:13.690 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:30:17.752 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:30:18.761 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:30:22.831 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:30:23.845 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:30:27.937 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:30:28.942 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:30:33.029 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:30:34.054 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:30:38.108 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:30:39.113 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:30:43.182 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:30:44.190 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:30:48.292 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:30:49.299 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:30:53.389 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:30:54.398 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:30:58.481 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:30:59.492 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:31:03.599 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:31:04.606 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:31:08.675 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:31:09.682 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:31:13.767 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:31:14.779 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:31:18.836 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:31:19.842 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:31:23.916 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:31:24.927 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:31:29.010 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:31:30.016 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:31:34.092 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:31:35.099 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:31:39.194 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:31:40.200 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:31:44.269 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:31:45.276 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:31:49.375 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:31:50.384 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:31:54.708 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:31:56.356 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:31:59.816 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:32:00.822 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:32:04.895 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:32:05.905 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:32:09.961 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:32:10.982 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:32:15.108 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:32:16.118 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:32:20.191 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:32:21.201 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:32:25.260 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:32:26.266 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:32:30.327 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:32:31.334 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:32:35.400 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:32:36.411 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:32:40.502 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:32:41.510 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:32:45.574 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:32:46.578 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:32:50.650 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:32:51.655 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:32:55.714 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:32:56.720 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:33:00.804 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:33:01.813 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:33:05.886 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:33:06.890 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:33:10.960 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:33:11.965 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:33:16.029 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:33:17.037 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:33:21.116 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:33:22.122 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:33:26.193 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:33:27.199 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:33:31.285 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:33:32.290 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:33:36.362 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:33:37.366 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:33:41.439 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:33:42.444 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:33:46.541 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:33:47.546 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:33:51.621 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:33:52.628 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:33:56.710 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:33:57.716 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:34:01.780 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:34:02.784 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:34:06.852 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:34:07.858 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:34:11.949 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:34:12.956 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:34:17.038 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:34:18.045 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:34:22.177 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:34:23.185 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:34:27.359 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:34:28.386 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:34:32.437 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:34:33.442 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:34:37.499 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:34:38.504 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:34:42.569 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:34:43.580 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:34:47.641 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:34:48.648 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:34:52.721 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:34:53.731 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:34:57.835 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:34:58.841 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:35:03.014 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:35:04.039 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:35:08.091 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:35:09.100 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:35:21.518 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:35:22.529 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:37:21.655 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:37:22.663 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:37:26.731 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:37:27.736 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:37:31.792 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:37:32.798 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:37:36.871 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:37:37.879 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:37:41.959 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:37:42.966 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:37:47.023 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:37:48.029 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:37:52.099 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:37:53.104 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:37:57.163 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:37:58.168 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:38:02.228 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:38:03.233 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:38:07.303 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:38:08.308 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:38:12.366 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:38:13.375 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:38:17.438 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:38:18.445 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:38:22.518 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:38:23.526 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:38:27.594 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:38:28.606 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:38:32.681 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:38:33.689 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:38:39.174 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:38:40.185 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:38:44.241 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:38:45.246 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:38:49.321 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:38:50.329 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:38:54.398 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:38:55.405 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:38:59.469 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:39:00.478 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:39:04.551 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:39:05.557 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:39:09.628 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:39:10.635 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:39:14.709 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:39:15.717 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:39:20.124 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:39:21.134 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:39:25.199 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:39:26.204 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:39:30.268 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:39:31.278 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:39:35.335 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:39:36.339 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:39:40.409 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:39:41.416 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:39:45.478 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:39:46.483 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:39:50.541 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:39:51.546 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:39:55.619 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:39:56.623 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:40:00.692 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:40:01.697 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:40:05.761 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:40:06.765 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:40:10.826 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:40:11.831 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:40:15.897 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:40:16.902 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:40:20.969 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:40:21.976 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:40:26.037 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:40:27.043 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:40:31.122 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:40:32.129 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:40:36.184 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:40:37.188 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:40:41.252 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:40:42.258 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:40:46.343 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:40:47.351 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:40:51.408 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:40:52.413 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:40:56.471 [warning] [Decorations] CAPPING events from decorations provider vscode.git 642
+2024-12-10 20:40:57.478 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:41:01.726 [warning] [Decorations] CAPPING events from decorations provider vscode.git 643
+2024-12-10 20:41:02.748 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:41:06.795 [warning] [Decorations] CAPPING events from decorations provider vscode.git 643
+2024-12-10 20:41:07.801 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:41:11.860 [warning] [Decorations] CAPPING events from decorations provider vscode.git 643
+2024-12-10 20:41:12.867 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:41:16.960 [warning] [Decorations] CAPPING events from decorations provider vscode.git 643
+2024-12-10 20:41:17.993 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:41:22.403 [warning] [Decorations] CAPPING events from decorations provider vscode.git 643
+2024-12-10 20:41:23.429 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:41:27.518 [warning] [Decorations] CAPPING events from decorations provider vscode.git 643
+2024-12-10 20:41:28.533 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:41:32.589 [warning] [Decorations] CAPPING events from decorations provider vscode.git 643
+2024-12-10 20:41:33.597 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:41:37.660 [warning] [Decorations] CAPPING events from decorations provider vscode.git 643
+2024-12-10 20:41:38.666 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:41:42.762 [warning] [Decorations] CAPPING events from decorations provider vscode.git 643
+2024-12-10 20:41:43.769 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:41:47.847 [warning] [Decorations] CAPPING events from decorations provider vscode.git 643
+2024-12-10 20:41:48.853 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:41:52.908 [warning] [Decorations] CAPPING events from decorations provider vscode.git 643
+2024-12-10 20:41:53.915 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:41:57.980 [warning] [Decorations] CAPPING events from decorations provider vscode.git 643
+2024-12-10 20:41:58.985 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:42:03.048 [warning] [Decorations] CAPPING events from decorations provider vscode.git 643
+2024-12-10 20:42:04.056 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:42:08.114 [warning] [Decorations] CAPPING events from decorations provider vscode.git 643
+2024-12-10 20:42:09.122 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:42:13.198 [warning] [Decorations] CAPPING events from decorations provider vscode.git 643
+2024-12-10 20:42:14.203 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:42:18.263 [warning] [Decorations] CAPPING events from decorations provider vscode.git 643
+2024-12-10 20:42:19.269 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:42:23.322 [warning] [Decorations] CAPPING events from decorations provider vscode.git 643
+2024-12-10 20:42:24.327 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:42:28.399 [warning] [Decorations] CAPPING events from decorations provider vscode.git 643
+2024-12-10 20:42:29.405 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:42:33.458 [warning] [Decorations] CAPPING events from decorations provider vscode.git 643
+2024-12-10 20:42:34.465 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:42:38.524 [warning] [Decorations] CAPPING events from decorations provider vscode.git 643
+2024-12-10 20:42:39.528 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:42:43.605 [warning] [Decorations] CAPPING events from decorations provider vscode.git 643
+2024-12-10 20:42:44.608 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:42:48.665 [warning] [Decorations] CAPPING events from decorations provider vscode.git 643
+2024-12-10 20:42:49.670 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:42:53.739 [warning] [Decorations] CAPPING events from decorations provider vscode.git 643
+2024-12-10 20:42:54.747 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:42:58.809 [warning] [Decorations] CAPPING events from decorations provider vscode.git 643
+2024-12-10 20:42:59.814 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:43:03.869 [warning] [Decorations] CAPPING events from decorations provider vscode.git 643
+2024-12-10 20:43:04.875 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:43:08.939 [warning] [Decorations] CAPPING events from decorations provider vscode.git 643
+2024-12-10 20:43:09.945 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:43:14.009 [warning] [Decorations] CAPPING events from decorations provider vscode.git 643
+2024-12-10 20:43:15.013 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:43:19.178 [warning] [Decorations] CAPPING events from decorations provider vscode.git 644
+2024-12-10 20:43:20.203 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:43:24.265 [warning] [Decorations] CAPPING events from decorations provider vscode.git 644
+2024-12-10 20:43:25.273 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:43:29.385 [warning] [Decorations] CAPPING events from decorations provider vscode.git 644
+2024-12-10 20:43:30.400 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:43:34.526 [warning] [Decorations] CAPPING events from decorations provider vscode.git 644
+2024-12-10 20:43:35.535 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:43:39.675 [warning] [Decorations] CAPPING events from decorations provider vscode.git 644
+2024-12-10 20:43:40.693 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:43:44.801 [warning] [Decorations] CAPPING events from decorations provider vscode.git 644
+2024-12-10 20:43:45.810 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:43:49.966 [warning] [Decorations] CAPPING events from decorations provider vscode.git 644
+2024-12-10 20:43:50.997 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:43:55.130 [warning] [Decorations] CAPPING events from decorations provider vscode.git 644
+2024-12-10 20:43:56.159 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:44:00.273 [warning] [Decorations] CAPPING events from decorations provider vscode.git 644
+2024-12-10 20:44:01.290 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:44:05.341 [warning] [Decorations] CAPPING events from decorations provider vscode.git 644
+2024-12-10 20:44:06.348 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:44:10.409 [warning] [Decorations] CAPPING events from decorations provider vscode.git 644
+2024-12-10 20:44:11.416 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:44:15.477 [warning] [Decorations] CAPPING events from decorations provider vscode.git 644
+2024-12-10 20:44:16.486 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:44:20.579 [warning] [Decorations] CAPPING events from decorations provider vscode.git 644
+2024-12-10 20:44:21.607 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:44:25.904 [warning] [Decorations] CAPPING events from decorations provider vscode.git 644
+2024-12-10 20:44:27.173 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:44:31.023 [warning] [Decorations] CAPPING events from decorations provider vscode.git 644
+2024-12-10 20:44:32.029 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:44:36.149 [warning] [Decorations] CAPPING events from decorations provider vscode.git 644
+2024-12-10 20:44:37.162 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:44:41.267 [warning] [Decorations] CAPPING events from decorations provider vscode.git 644
+2024-12-10 20:44:42.274 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:44:46.342 [warning] [Decorations] CAPPING events from decorations provider vscode.git 644
+2024-12-10 20:44:47.350 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:44:51.437 [warning] [Decorations] CAPPING events from decorations provider vscode.git 644
+2024-12-10 20:44:52.451 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:44:56.668 [warning] [Decorations] CAPPING events from decorations provider vscode.git 645
+2024-12-10 20:44:57.674 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:45:01.735 [warning] [Decorations] CAPPING events from decorations provider vscode.git 644
+2024-12-10 20:45:02.743 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:45:06.807 [warning] [Decorations] CAPPING events from decorations provider vscode.git 645
+2024-12-10 20:45:07.820 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:45:12.040 [warning] [Decorations] CAPPING events from decorations provider vscode.git 645
+2024-12-10 20:45:13.049 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:45:17.146 [warning] [Decorations] CAPPING events from decorations provider vscode.git 645
+2024-12-10 20:45:18.155 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:46:27.560 [warning] [Decorations] CAPPING events from decorations provider vscode.git 646
+2024-12-10 20:46:28.568 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 20:46:32.637 [warning] [Decorations] CAPPING events from decorations provider vscode.git 645
+2024-12-10 20:46:33.643 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 21:05:04.749 [warning] [Decorations] CAPPING events from decorations provider vscode.git 645
+2024-12-10 21:05:05.757 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 21:05:09.831 [warning] [Decorations] CAPPING events from decorations provider vscode.git 646
+2024-12-10 21:05:10.838 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 21:05:14.910 [warning] [Decorations] CAPPING events from decorations provider vscode.git 646
+2024-12-10 21:05:15.922 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-12-10 21:05:19.998 [warning] [Decorations] CAPPING events from decorations provider vscode.git 645
+2024-12-10 21:05:21.004 [error] Error: No such branch: main.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)

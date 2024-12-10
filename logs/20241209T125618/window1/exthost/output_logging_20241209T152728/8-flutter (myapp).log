@@ -1,0 +1,81 @@
+[myapp] flutter pub get --no-example
+   Woah! You appear to be trying to run flutter as root.
+   We strongly recommend running the flutter tool without superuser privileges.
+  /
+📎
+Resolving dependencies...
+Downloading packages...
+  async 2.11.0 (2.12.0 available)
+  boolean_selector 2.1.1 (2.1.2 available)
+  characters 1.3.0 (1.3.1 available)
+  clock 1.1.1 (1.1.2 available)
+  collection 1.18.0 (1.19.1 available)
+  connectivity_plus 6.0.3 (6.1.0 available)
+  cross_file 0.3.3+8 (0.3.4+2 available)
+  dio_web_adapter 1.0.1 (2.0.0 available)
+  fake_async 1.3.1 (1.3.2 available)
++ gotrue 0.1.6 (2.11.0 available)
++ hive 2.2.3
++ hive_flutter 1.1.0
+  http 0.13.6 (1.2.2 available)
+  http_parser 4.0.2 (4.1.1 available)
+  idb_shim 2.3.2 (2.6.1+7 available)
+  js 0.6.7 (0.7.1 available)
++ jwt_decode 0.3.1
+  leak_tracker 10.0.5 (10.0.8 available)
+  leak_tracker_flutter_testing 3.0.5 (3.0.9 available)
+  matcher 0.12.16+1 (0.12.17 available)
+  material_color_utilities 0.11.1 (0.12.0 available)
+  meta 1.15.0 (1.16.0 available)
+  mime 1.0.6 (2.0.0 available)
+  package_info_plus 5.0.1 (8.1.1 available)
+  package_info_plus_platform_interface 2.0.1 (3.0.1 available)
+  parse_server_sdk 6.4.0 (7.0.1 available)
+  path 1.9.0 (1.9.1 available)
+  path_provider_foundation 2.4.0 (2.4.1 available)
++ postgrest 0.1.11 (2.4.0 available)
++ realtime_client 0.1.15+1 (2.4.0 available)
+  sembast 3.8.0 (3.8.0+1 available)
+  sembast_web 2.2.0 (2.4.0+4 available)
+  shared_preferences 2.2.3 (2.3.3 available)
+  shared_preferences_android 2.3.3 (affected by advisory: [^0], 2.3.4 available)
+  shared_preferences_web 2.2.2 (2.4.2 available)
+  stack_trace 1.11.1 (1.12.0 available)
++ storage_client 0.0.6+2 (2.2.0 available)
+  string_scanner 1.2.0 (1.4.0 available)
++ supabase 0.2.15 (2.6.0 available)
++ supabase_flutter 0.2.12 (2.8.1 available)
+  test_api 0.7.2 (0.7.4 available)
+  timezone 0.9.4 (0.10.0 available)
++ uni_links 0.5.1
++ uni_links_platform_interface 1.0.0
++ uni_links_web 0.1.0
++ url_launcher 6.3.1
++ url_launcher_android 6.3.14
++ url_launcher_ios 6.3.2
++ url_launcher_linux 3.2.1
++ url_launcher_macos 3.2.2
++ url_launcher_platform_interface 2.3.2
++ url_launcher_web 2.2.3 (2.3.3 available)
++ url_launcher_windows 3.1.3
+  uuid 3.0.7 (4.5.1 available)
+  vm_service 14.2.5 (15.0.0 available)
+  web 0.4.2 (1.1.0 available)
+  web_socket_channel 2.4.3 (3.0.1 available)
+These packages are no longer being depended on:
+- _flutterfire_internals 1.3.25
+- cloud_firestore 4.15.8
+- cloud_firestore_platform_interface 6.1.9
+- cloud_firestore_web 3.10.8
+- firebase_auth 4.17.8
+- firebase_auth_platform_interface 7.1.8
+- firebase_auth_web 5.9.8
+- firebase_core 2.27.0
+- firebase_core_platform_interface 5.3.0
+- firebase_core_web 2.11.5
+Changed 30 dependencies!
+Dependencies are affected by security advisories:
+  [^0]: https://github.com/advisories/GHSA-3hpf-ff72-j67p
+44 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+exit code 0

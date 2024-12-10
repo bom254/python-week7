@@ -1,0 +1,71 @@
+2024-12-09 12:58:16.191 [info] (Client) Pylance async client (2024.12.1) started with python extension (2024.14.1)
+2024-12-09 12:58:16.857 [info] [Info  - 12:58:16 PM] (89069) Server root directory: file:///root/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2024-12-09 12:58:16.858 [info] [Info  - 12:58:16 PM] (89069) Pylance language server 2024.12.1 (pyright version 1.1.389, commit ce1325fc) starting
+2024-12-09 12:58:16.858 [info] [Info  - 12:58:16 PM] (89069) Starting service instance "python-week7"
+2024-12-09 12:58:16.982 [info] [Info  - 12:58:16 PM] (89069) Setting environmentName for service "python-week7": "3.12.7 (usr venv)"
+2024-12-09 12:58:16.982 [info] [Info  - 12:58:16 PM] (89069) Setting pythonPath for service "python-week7": "/usr/bin/python"
+2024-12-09 12:58:16.983 [info] [Info  - 12:58:16 PM] (89069) No include entries specified; assuming /home/blogger/Documents/Plp_Academy/python-week7
+2024-12-09 12:58:16.985 [info] [Info  - 12:58:16 PM] (89069) Auto-excluding **/node_modules
+2024-12-09 12:58:16.986 [info] [Info  - 12:58:16 PM] (89069) Auto-excluding **/__pycache__
+2024-12-09 12:58:16.986 [info] [Info  - 12:58:16 PM] (89069) Auto-excluding **/.*
+2024-12-09 12:58:17.036 [info] [Info  - 12:58:17 PM] (89069) Assuming Python version 3.12.7.final.0
+2024-12-09 12:58:18.800 [info] [Info  - 12:58:18 PM] (89069) Found 1 source file
+2024-12-09 12:58:20.082 [info] [Info  - 12:58:20 PM] (89069) Background analysis(1) root directory: file:///root/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2024-12-09 12:58:20.082 [info] [Info  - 12:58:20 PM] (89069) Background analysis(1) started
+2024-12-09 12:58:20.351 [info] [Info  - 12:58:20 PM] (89069) Indexer background runner(2) root directory: file:///root/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist (index)
+2024-12-09 12:58:20.358 [info] [Info  - 12:58:20 PM] (89069) Indexing(2) started
+2024-12-09 12:58:39.823 [info] [Info  - 12:58:39 PM] (89069) [IDX(2)] Long operation: scan packages file:///home/blogger/Documents/Plp_Academy/python-week7 (18319ms)
+2024-12-09 12:58:39.823 [info] [Info  - 12:58:39 PM] (89069) scanned(2) 773 files over 1 exec env
+2024-12-09 12:59:08.220 [info] [Info  - 12:59:08 PM] (89069) [IDX(2)] Long operation: index execution environment file:///home/blogger/Documents/Plp_Academy/python-week7 (27640ms)
+2024-12-09 12:59:08.463 [info] [Info  - 12:59:08 PM] (89069) [IDX(2)] Long operation: index packages file:///home/blogger/Documents/Plp_Academy/python-week7 (27986ms)
+2024-12-09 12:59:08.464 [info] [Info  - 12:59:08 PM] (89069) indexed(2) 773 files over 1 exec env
+2024-12-09 12:59:09.607 [info] [Info  - 12:59:09 PM] (89069) Indexing finished(2).
+2024-12-09 13:00:59.697 [info] [Info  - 1:00:59 PM] Server process exited successfully
+2024-12-09 13:01:00.295 [info] (Client) Pylance async client (2024.12.1) started with python extension (2024.14.1)
+2024-12-09 13:01:01.160 [info] [Info  - 1:01:01 PM] (90587) Server root directory: file:///root/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2024-12-09 13:01:01.162 [info] [Info  - 1:01:01 PM] (90587) Pylance language server 2024.12.1 (pyright version 1.1.389, commit ce1325fc) starting
+2024-12-09 13:01:01.172 [info] [Info  - 1:01:01 PM] (90587) Starting service instance "python-week7"
+2024-12-09 13:01:01.276 [info] [Info  - 1:01:01 PM] (90587) Setting environmentName for service "python-week7": "3.12.7 (usr venv)"
+2024-12-09 13:01:01.277 [info] [Info  - 1:01:01 PM] (90587) Setting pythonPath for service "python-week7": "/usr/bin/python"
+2024-12-09 13:01:01.278 [info] [Info  - 1:01:01 PM] (90587) No include entries specified; assuming /home/blogger/Documents/Plp_Academy/python-week7
+2024-12-09 13:01:01.280 [info] [Info  - 1:01:01 PM] (90587) Auto-excluding **/node_modules
+2024-12-09 13:01:01.280 [info] [Info  - 1:01:01 PM] (90587) Auto-excluding **/__pycache__
+2024-12-09 13:01:01.281 [info] [Info  - 1:01:01 PM] (90587) Auto-excluding **/.*
+2024-12-09 13:01:01.332 [info] [Info  - 1:01:01 PM] (90587) Assuming Python version 3.12.7.final.0
+2024-12-09 13:01:01.974 [info] [Info  - 1:01:01 PM] (90587) Found 1 source file
+2024-12-09 13:01:02.403 [info] [Info  - 1:01:02 PM] (90587) Background analysis(1) root directory: file:///root/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2024-12-09 13:01:02.410 [info] [Info  - 1:01:02 PM] (90587) Background analysis(1) started
+2024-12-09 13:01:03.470 [info] [Info  - 1:01:03 PM] (90587) Indexer background runner(2) root directory: file:///root/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist (index)
+2024-12-09 13:01:03.471 [info] [Info  - 1:01:03 PM] (90587) Indexing(2) started
+2024-12-09 13:01:06.445 [info] [Info  - 1:01:06 PM] (90587) [BG(1)] Long operation: checking: file:///home/blogger/Documents/Plp_Academy/python-week7/answer.py (2058ms)
+2024-12-09 13:01:06.446 [info] [Info  - 1:01:06 PM] (90587) [BG(1)] Long operation: analyzing: file:///home/blogger/Documents/Plp_Academy/python-week7/answer.py (2065ms)
+2024-12-09 13:01:07.003 [info] [Info  - 1:01:07 PM] (90587) [IDX(2)] Long operation: scan packages file:///home/blogger/Documents/Plp_Academy/python-week7 (2663ms)
+2024-12-09 13:01:07.004 [info] [Info  - 1:01:07 PM] (90587) scanned(2) 773 files over 1 exec env
+2024-12-09 13:01:08.137 [info] [Info  - 1:01:08 PM] (90587) indexed(2) 773 files over 1 exec env
+2024-12-09 13:01:08.988 [info] [Info  - 1:01:08 PM] (90587) Indexing finished(2).
+2024-12-09 13:03:44.621 [info] [Info  - 1:03:44 PM] (90587) Starting service instance "<default>"
+2024-12-09 13:03:44.745 [info] [Info  - 1:03:44 PM] (90587) Setting environmentName for service "<default>": "3.12.7 (usr venv)"
+2024-12-09 13:03:44.745 [info] [Info  - 1:03:44 PM] (90587) Setting pythonPath for service "<default>": "/usr/bin/python"
+2024-12-09 13:03:44.745 [info] [Info  - 1:03:44 PM] (90587) No include entries specified; assuming /<default workspace root>
+2024-12-09 13:03:44.745 [info] [Info  - 1:03:44 PM] (90587) Auto-excluding **/node_modules
+2024-12-09 13:03:44.745 [info] [Info  - 1:03:44 PM] (90587) Auto-excluding **/__pycache__
+2024-12-09 13:03:44.746 [info] [Info  - 1:03:44 PM] (90587) Auto-excluding **/.*
+2024-12-09 13:03:44.813 [info] [Info  - 1:03:44 PM] (90587) Assuming Python version 3.12.7.final.0
+2024-12-09 13:03:45.300 [info] [Error - 1:03:45 PM] (90587) File or directory "/<default workspace root>" does not exist.
+2024-12-09 13:03:45.301 [info] [Info  - 1:03:45 PM] (90587) No source files found.
+2024-12-09 13:03:45.905 [info] [Info  - 1:03:45 PM] (90587) Background analysis(3) root directory: file:///root/.vscode/extensions/ms-python.vscode-pylance-2024.12.1/dist
+2024-12-09 13:03:45.910 [info] [Info  - 1:03:45 PM] (90587) Background analysis(3) started
+2024-12-09 13:06:30.663 [info] [Info  - 1:06:30 PM] (90587) Found 2 source files
+2024-12-09 13:14:30.813 [info] [Info  - 1:14:30 PM] (90587) Found 3 source files
+2024-12-09 13:15:26.052 [info] [Info  - 1:15:26 PM] (90587) Found 4 source files
+2024-12-09 13:22:58.486 [info] [Info  - 1:22:58 PM] (90587) Found 5 source files
+2024-12-09 13:23:11.048 [info] [Info  - 1:23:11 PM] (90587) Found 6 source files
+2024-12-09 13:26:34.302 [info] [Info  - 1:26:34 PM] (90587) Found 7 source files
+2024-12-09 13:30:56.394 [info] [Info  - 1:30:56 PM] (90587) Found 8 source files
+2024-12-09 13:34:54.272 [info] [Info  - 1:34:54 PM] (90587) Found 9 source files
+2024-12-09 13:55:57.484 [info] [Info  - 1:55:57 PM] (90587) Found 10 source files
+2024-12-09 14:00:17.203 [info] [Info  - 2:00:17 PM] (90587) Found 11 source files
+2024-12-09 14:00:57.222 [info] [Info  - 2:00:57 PM] (90587) Found 12 source files
+2024-12-09 14:02:21.025 [info] [Info  - 2:02:21 PM] (90587) Found 13 source files
+2024-12-09 14:06:31.024 [info] [Info  - 2:06:31 PM] (90587) Found 14 source files
+2024-12-09 14:10:49.575 [info] [Info  - 2:10:49 PM] (90587) Found 15 source files

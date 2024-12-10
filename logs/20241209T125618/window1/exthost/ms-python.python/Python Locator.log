@@ -1,0 +1,48 @@
+2024-12-09 12:58:01.727 [info] Starting Python Locator /root/.vscode/extensions/ms-python.python-2024.14.1-linux-x64/python-env-tools/bin/pet server
+2024-12-09 12:58:11.227 [info] Discovered env: /bin/python
+2024-12-09 12:58:11.234 [info] Discovered env: /usr/bin/python
+2024-12-09 12:58:11.320 [info] Discovered env: /bin/python2
+2024-12-09 12:58:11.321 [info] Discovered env: /usr/bin/python2
+2024-12-09 12:58:11.326 [info] Discovered env: /bin/python2.7
+2024-12-09 12:58:11.327 [info] Discovered env: /usr/bin/python2.7
+2024-12-09 12:58:11.329 [info] Discovered env: /bin/python3
+2024-12-09 12:58:11.338 [info] Discovered env: /usr/bin/python3
+2024-12-09 12:58:11.347 [info] Discovered env: /usr/bin/python3.11
+2024-12-09 12:58:11.356 [info] Discovered env: /bin/python3.11
+2024-12-09 12:58:11.364 [info] Discovered env: /usr/bin/python3.12
+2024-12-09 12:58:11.365 [info] Discovered env: /bin/python3.12
+2024-12-09 12:58:11.449 [info] Resolved /bin/python
+2024-12-09 12:58:11.454 [info] Resolved /usr/bin/python
+2024-12-09 12:58:11.520 [info] Resolved /bin/python3
+2024-12-09 12:58:11.569 [info] Resolved /usr/bin/python3
+2024-12-09 12:58:11.594 [info] Resolved /usr/bin/python3.12
+2024-12-09 12:58:11.596 [info] Resolved /bin/python3.12
+2024-12-09 12:58:14.366 [info] Resolved /bin/python2.7
+2024-12-09 12:58:14.367 [info] Resolved /usr/bin/python2
+2024-12-09 12:58:14.368 [info] Resolved /usr/bin/python2.7
+2024-12-09 12:58:14.369 [info] Resolved /bin/python2
+2024-12-09 12:58:14.809 [info] Resolved /bin/python3.11
+2024-12-09 12:58:14.809 [info] Resolved /usr/bin/python3.11
+2024-12-09 12:58:14.827 [info] Locator Conda took 12.906172368s
+2024-12-09 12:58:14.827 [info] Locator Homebrew took 1.241617613s
+2024-12-09 12:58:14.827 [info] Locator LinuxGlobal took 12.981795259s
+2024-12-09 12:58:14.828 [info] Locator PipEnv took 2.503244ms
+2024-12-09 12:58:14.828 [info] Locator Poetry took 2.482241ms
+2024-12-09 12:58:14.828 [info] Locator PyEnv took 3.87505ms
+2024-12-09 12:58:14.828 [info] Locator Venv took 2.033063ms
+2024-12-09 12:58:14.828 [info] Locator VirtualEnv took 2.436326ms
+2024-12-09 12:58:14.828 [info] Locator VirtualEnvWrapper took 2.409331ms
+2024-12-09 12:58:14.828 [info] Locator GlobalVirtualEnvs took 391.808µs
+2024-12-09 12:58:14.828 [info] Locator Locators took 12.985096809s
+2024-12-09 12:58:14.828 [info] Locator Path took 9.457888171s
+2024-12-09 12:58:14.828 [info] Locator Workspaces took 2.425227ms
+2024-12-09 12:58:14.829 [info] Refresh completed in 12985ms
+2024-12-09 12:58:14.901 [info] Resolved Python Environment /usr/bin/python
+2024-12-09 13:01:01.217 [info] Resolved Python Environment /usr/bin/python
+2024-12-09 13:03:28.152 [info] Resolved Python Environment /usr/bin/python
+2024-12-09 13:07:38.309 [info] Resolved Python Environment /usr/bin/python
+2024-12-09 13:08:14.166 [info] Resolved Python Environment /usr/bin/python
+2024-12-09 13:23:10.032 [info] Resolved Python Environment /usr/bin/python
+2024-12-09 13:27:08.641 [info] Resolved Python Environment /usr/bin/python
+2024-12-09 14:00:50.690 [info] Resolved Python Environment /usr/bin/python
+2024-12-09 14:01:21.712 [info] Resolved Python Environment /usr/bin/python
